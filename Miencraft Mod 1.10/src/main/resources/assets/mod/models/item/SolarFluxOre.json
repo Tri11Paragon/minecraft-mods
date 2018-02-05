@@ -1,0 +1,6 @@
+{ 
+	"parent":"mod:block/SolarFluxOre",
+	"textures":{
+		"all": "mod:blocks/SolarFluxOre"
+	}
+}

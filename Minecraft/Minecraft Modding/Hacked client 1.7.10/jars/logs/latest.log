@@ -1,0 +1,30 @@
+[10:54:57] [main/INFO]: Setting user: Player802
+[10:54:57] [main/INFO]: (Session ID is token:0:Player802)
+[10:54:58] [Client thread/INFO]: LWJGL Version: 2.9.0
+[10:54:58] [Client thread/INFO]: Reloading ResourceManager: Default
+[10:54:59] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[10:54:59] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[10:54:59] [Client thread/ERROR]: ########## GL ERROR ##########
+[10:54:59] [Client thread/ERROR]: @ Post startup
+[10:54:59] [Client thread/ERROR]: 1281: Invalid value
+[10:55:00] [Client thread/ERROR]: ########## GL ERROR ##########
+[10:55:00] [Client thread/ERROR]: @ Pre render
+[10:55:00] [Client thread/ERROR]: 1281: Invalid value
+[10:55:00] [Sound Library Loader/INFO]: Sound engine started
+[10:55:00] [MCO Availability Checker #1/ERROR]: Couldn't connect to Realms
+[10:55:02] [Server thread/INFO]: Starting integrated minecraft server version 1.7.2
+[10:55:02] [Server thread/INFO]: Generating keypair
+[10:55:02] [Server thread/INFO]: Preparing start region for level 0
+[10:55:03] [Server thread/INFO]: Player802[local:E:4d504b2b] logged in with entity id 147 at (129.69999998807907, 64.0, 103.69999998807907)
+[10:55:03] [Server thread/INFO]: Player802 joined the game
+[10:55:41] [Server thread/INFO]: Saving and pausing game...
+[10:55:41] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[10:55:41] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[10:55:41] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[10:55:42] [Client thread/INFO]: Stopping!
+[10:55:42] [Server thread/INFO]: Stopping server
+[10:55:42] [Server thread/INFO]: Saving players
+[10:55:42] [Server thread/INFO]: Saving worlds
+[10:55:42] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[10:55:42] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[10:55:42] [Server thread/INFO]: Saving chunks for level 'New World'/The End

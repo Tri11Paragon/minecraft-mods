@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "up": "blocks/CopperOre","down": "blocks/CopperOre","north": "blocks/CopperOre","east": "blocks/CopperOre","south": "blocks/CopperOre","west": "blocks/CopperOre","particle": "blocks/CopperOre"
+    }
+}

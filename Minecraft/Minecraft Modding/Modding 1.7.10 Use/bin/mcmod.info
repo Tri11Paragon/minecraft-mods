@@ -1,0 +1,16 @@
+[
+{
+  "modid": "diremod",
+  "name": "DireMod",
+  "description": "",
+  "version": "0.0.3",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Brett"],
+  "credits": "The Forge and FML guys for making forge, Brett",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

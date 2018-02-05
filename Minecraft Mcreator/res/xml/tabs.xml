@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tabs>
+
+<tab description="This tab contains items, ores and blocks that cannot be crafted, but they are part of Minecraft world generation.">Worldgen blocks/items</tab>
+<tab description="This tab contains Minecraft flowers, mushrooms and grasses.">Flowers</tab>
+<tab description="This tab contains stairs, fences and slabs crafted from any kind of stone.">Stone stairs, fences and slabs</tab>
+<tab description="This tab contains blocks and items that are changed in the presence of redstone signal.">Redstone blocks/items</tab>
+<tab description="This tab contains collored block and items. It also contains all dyes.">Colored blocks/items</tab>
+<tab description="This tab contains things crafted using wooden blocks.">Wooden blocks/items</tab>
+<tab description="This tab contains Minecraft tools.">Tools</tab>
+<tab description="This tab contains weapons and armor sets.">Weapons and Armor</tab>
+<tab description="This tab contains food that can be found and crafted in Minecraft">Food</tab>
+<tab description="This tab contains potions and tools to crate them.">Brewing</tab>
+<tab description="This tab contains items that can give you faster transport in Minecraft">Transport</tab>
+<tab description="This tab contains decorative blocks and items.">Decorations</tab>
+<tab description="This tab contains items and blocks used to spawn mobs">Mob eggs and spawners</tab>
+<tab description="This tab contains all block that cannot be crafted, but they can be given to player.">Technical blocks</tab>
+
+</tabs>

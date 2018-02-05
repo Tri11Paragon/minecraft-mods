@@ -1,0 +1,11 @@
+tile.mine.name=Miner
+tile.bigMine.name=Big Miner
+tile.Infuser.name=Item Combiner
+tile.Ores.thallium.name=Thallium ore
+tile.Ores.iridium.name=Iridium Ore
+
+item.ironProcessorCore.name=Iron Processor Core
+item.ironGear.name=Iron Gear
+item.ironCPU.name=Iron CPU
+item.machineFrame.name=Machine Frame
+item.staffofpower.name=Staff Of Power

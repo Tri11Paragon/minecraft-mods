@@ -1,0 +1,6 @@
+{ 
+	"parent":"mod:block/Infuser",
+	"textures":{
+		"all": "mod:blocks/Infuser"
+	}
+}

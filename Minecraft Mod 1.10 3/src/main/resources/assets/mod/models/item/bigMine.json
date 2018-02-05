@@ -1,0 +1,6 @@
+{ 
+    "parent":"mod:block/bigMine",
+    "textures":{
+        "all": "mod:blocks/bigMine"
+    }
+}

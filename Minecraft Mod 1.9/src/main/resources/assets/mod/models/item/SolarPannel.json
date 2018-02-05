@@ -1,0 +1,6 @@
+{ 
+	"parent":"mod:block/SolarPannel",
+	"textures":{
+		"all": "mod:blocks/SolarPannel"
+	}
+}

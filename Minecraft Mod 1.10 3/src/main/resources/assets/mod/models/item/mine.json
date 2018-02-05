@@ -1,0 +1,6 @@
+{ 
+    "parent":"mod:block/mine",
+    "textures":{
+        "all": "mod:blocks/mine"
+    }
+}

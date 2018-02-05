@@ -1,0 +1,36 @@
+package com.brett.blocks;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.entity.projectile.EntityArrow;
+import net.minecraft.init.Blocks;
+import net.minecraft.util.DamageSource;
+import net.minecraft.world.World;
+
+public class Fence extends Block {
+
+	protected Fence(Material p_i45394_1_) {
+		super(p_i45394_1_);
+		
+	}
+	public void onEntityCollidedWithBlock(World world, int i, int j, int k, Entity entity){
+
+		if(true){
+		EntityArrow entityarrow = new EntityArrow(world, (EntityLivingBase)entity, 1 * 2.0F);
+		entityarrow.setDamage(1*2.0F);
+		entityarrow.setKnockbackStrength(1);
+		world.playSoundAtEntity(entity, "random.bow", 1.0F, 1.0F / (0.5F * 0.4F + 1.2F) + 1 * 0.5F);
+		if (!world.isRemote) world.spawnEntityInWorld(entityarrow);
+		}
+
+		if(true){
+		entity.attackEntityFrom(DamageSource.magic, 20);
+		}
+		if(true){
+			world.setBlock(i, j + 5, k, Blocks.anvil, 0, 2);
+		}
+
+	}
+}

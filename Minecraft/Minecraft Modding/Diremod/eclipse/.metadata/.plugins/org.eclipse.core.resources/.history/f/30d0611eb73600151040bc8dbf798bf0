@@ -1,0 +1,7 @@
+package com.brett.blocks;
+
+import net.minecraft.block.Block;
+
+public class Fence extends Block {
+
+}

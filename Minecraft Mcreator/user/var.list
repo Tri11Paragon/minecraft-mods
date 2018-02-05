@@ -1,0 +1,4 @@
+diggingLevel;Number;1
+diggingState;Logic;false
+diggingPower;Number;1
+currentLevel;Number;2

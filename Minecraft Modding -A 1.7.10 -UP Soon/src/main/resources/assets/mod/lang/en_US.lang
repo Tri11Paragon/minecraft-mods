@@ -1,0 +1,25 @@
+tile.TweekIron.name=Iron Ore
+tile.TweekIron.default.name=Iron Ore
+tile.CopperOre.name=Copper Ore
+tile.TinOre.name=Tin Ore
+tile.AntiMater.name=Anti-Mater
+
+item.CopperIngot.name=Copper Ingot
+item.TinIngot.name=Tin Ingot
+item.AntiMaterIngot.name=Antimatter Ingot
+item.EnderIngot.name=Ender Ingot
+item.DarkMater.name=Dark Mater
+item.SteelIngot.name=Steel Ingot
+item.darkpick.name=Dark Matter Pickaxe
+item.darkaxe.name=Dark Matter Axe
+item.darkshovel.name=Dark Matter Shovel
+item.darksword.name=Dark Matter Sword
+
+tile.Infuser.name=Infuser
+
+item.metaitem_0.name=ManaIngot
+item.metaitem_1.name=Philosopher's Stone
+item.metaitem_2.name=Electromagnetic Coil
+item.metaitem_3.name=Battery
+item.metaitem_4.name=Item Replicator
+item.metaitem_5.name=Mana

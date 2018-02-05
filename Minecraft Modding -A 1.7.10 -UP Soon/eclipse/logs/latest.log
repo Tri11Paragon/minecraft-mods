@@ -1,0 +1,33 @@
+[09:56:46] [main/INFO]: Setting user: Player937
+[09:56:49] [Client thread/INFO]: LWJGL Version: 2.9.1
+[09:57:06] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:brettsmod
+[09:57:08] [Sound Library Loader/INFO]: Sound engine started
+[09:57:10] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[09:57:10] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[09:57:10] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:brettsmod
+[09:57:11] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[09:57:11] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[09:57:12] [Sound Library Loader/INFO]: Sound engine started
+[09:57:13] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:57:13] [Client thread/ERROR]: @ Post startup
+[09:57:13] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:57:15] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[09:57:15] [Server thread/INFO]: Generating keypair
+[09:57:16] [Server thread/INFO]: Preparing start region for level 0
+[09:57:17] [Server thread/INFO]: Preparing spawn area: 69%
+[09:57:17] [Server thread/INFO]: Changing view distance to 8, from 10
+[09:57:18] [Server thread/INFO]: Player937[local:E:e3a346ea] logged in with entity id 377 at (-203.7655923266967, 63.0, 185.41776757350607)
+[09:57:18] [Server thread/INFO]: Player937 joined the game
+[09:57:20] [Server thread/INFO]: Saving and pausing game...
+[09:57:20] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[09:57:20] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[09:57:20] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[09:57:38] [Server thread/INFO]: Player937 has just earned the achievement [Getting Wood]
+[09:57:38] [Client thread/INFO]: [CHAT] Player937 has just earned the achievement [Getting Wood]
+[09:58:13] [Client thread/INFO]: Stopping!
+[09:58:13] [Server thread/INFO]: Stopping server
+[09:58:13] [Server thread/INFO]: Saving players
+[09:58:13] [Server thread/INFO]: Saving worlds
+[09:58:13] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[09:58:13] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[09:58:13] [Server thread/INFO]: Saving chunks for level 'New World'/The End

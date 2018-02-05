@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods>
+
+
+<mod>
+
+	<name>
+		TestGUI
+	</name>
+
+	<type>
+		BasicGUI
+	</type>
+
+	<description>
+		This GUI looks similar to the GUI of command block or ingame pause menu.
+	</description>
+
+</mod>
+
+
+<mod>
+
+	<name>
+		SandToGlass
+	</name>
+
+	<type>
+		Block
+	</type>
+
+	<description>
+		Block is basic unit in minecraft. It is 3D object that can be placed and used to build.
+	</description>
+
+</mod>
+
+
+<mod>
+
+	<name>
+		DescItem
+	</name>
+
+	<type>
+		Item
+	</type>
+
+	<description>
+		Item is object that can be hold in the hand. You can use it. It has damage.
+	</description>
+
+</mod>
+
+
+<mod>
+
+	<name>
+		DDDD
+	</name>
+
+	<type>
+		Food
+	</type>
+
+	<description>
+		Food is item that can be eaten and can give you potion effect.
+	</description>
+
+</mod>
+
+
+<mod>
+
+	<name>
+		EnderFuel
+	</name>
+
+	<type>
+		Fuel
+	</type>
+
+	<description>
+		Fuel is block or item that can be used as fuel in furnaces.
+	</description>
+
+</mod>
+
+
+<mod>
+
+	<name>
+		SSSDDDD
+	</name>
+
+	<type>
+		Block
+	</type>
+
+	<description>
+		Block is basic unit in minecraft. It is 3D object that can be placed and used to build.
+	</description>
+
+</mod>
+
+
+<mod>
+
+	<name>
+		TEST
+	</name>
+
+	<type>
+		Item
+	</type>
+
+	<description>
+		Item is object that can be hold in the hand. You can use it. It has damage.
+	</description>
+
+</mod>
+
+
+</mods>

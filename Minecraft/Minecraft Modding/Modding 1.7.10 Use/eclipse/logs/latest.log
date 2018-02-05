@@ -1,0 +1,32 @@
+[11:21:03] [main/INFO]: Setting user: Player553
+[11:21:04] [Client thread/INFO]: LWJGL Version: 2.9.1
+[11:21:11] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:DireMod, FMLFileResourcePack:direcore, FMLFileResourcePack:direop
+[11:21:14] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[11:21:14] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[11:21:15] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:DireMod, FMLFileResourcePack:direcore, FMLFileResourcePack:direop
+[11:21:15] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[11:21:15] [Sound Library Loader/INFO]: Sound engine started
+[11:21:15] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[11:21:17] [Sound Library Loader/INFO]: Sound engine started
+[11:21:17] [Client thread/ERROR]: ########## GL ERROR ##########
+[11:21:17] [Client thread/ERROR]: @ Post startup
+[11:21:17] [Client thread/ERROR]: 1281: Invalid value
+[11:22:42] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[11:22:42] [Server thread/INFO]: Generating keypair
+[11:22:43] [Server thread/INFO]: Preparing start region for level 0
+[11:22:44] [Server thread/INFO]: Preparing spawn area: 12%
+[11:22:45] [Server thread/INFO]: Preparing spawn area: 61%
+[11:22:46] [Server thread/INFO]: Changing view distance to 8, from 10
+[11:22:47] [Server thread/INFO]: Player553[local:E:1d219796] logged in with entity id 253 at (-127.53608386950793, 78.7985873125718, 158.51915635259274)
+[11:22:47] [Server thread/INFO]: Player553 joined the game
+[11:22:49] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2195ms behind, skipping 43 tick(s)
+[11:22:50] [Server thread/INFO]: Saving and pausing game...
+[11:22:50] [Server thread/INFO]: Saving chunks for level 'Brett test World'/Overworld
+[11:22:50] [Server thread/INFO]: Saving chunks for level 'Brett test World'/Nether
+[11:22:50] [Server thread/INFO]: Saving chunks for level 'Brett test World'/The End
+[11:24:19] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3579ms behind, skipping 71 tick(s)
+[11:24:23] [Server thread/INFO]: Player553 has just earned the achievement [Taking Inventory]
+[11:24:24] [Client thread/INFO]: [CHAT] Player553 has just earned the achievement [Taking Inventory]
+[11:24:35] [Client thread/INFO]: Stopping!
+[11:24:35] [Client Shutdown Thread/INFO]: Stopping server
+[11:24:35] [Client Shutdown Thread/INFO]: Saving players

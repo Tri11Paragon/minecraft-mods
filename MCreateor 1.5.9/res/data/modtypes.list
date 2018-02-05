@@ -1,0 +1,24 @@
+######################################
+#		  MCreator Modtypes			 #
+#		  List by Minewolf20		 #
+######################################
+Block=block ore generation machine furnace table ruby anything everything computer iron gold diamond diamonds redstone emeralds emerald quartz leaves dirt grass stone cobblestone cobble
+Item=item icon tool wrench ingot gem ore ruby anything everything iron gold diamond diamonds redstone emeralds emerald quartz ipod iphone map leaf
+Armor=armor chestplate helmet leggins legs boots recipe item bodyarmor anything everything weared wear prevents
+Fluid=fluid lava water magma anything everything volcano dirt blood poison color milk liquid xp uu matter
+Command=command chat / op time admin bukkit plugin anything everything gamemode set add xp /op /time /gamemode 1 2 3 0
+Tool=tool pickaxe axe sword shovel hoe special recipe items anything everything special break hit destroy destroys breaks hits damages damage
+Achievement=achievement event anything everything get triggered
+Tab=tab creative decorations redstone transport food tools anything everything
+Recipe=recipe smelting crafting anything everything recipes smelt craft
+Plant=plant rose grass anything everything dandelion tulip vine flower plants roses tall fern cactus sugar cane canes
+Gun=gun bow arrow ammo item bazooka ak-47 minigun anything everything shootgun shoot shoting kill killing kills
+Biome=biome tree ore spawning faum flora flower plant water sky dimension woods twilight forest anything everything structure mobs custom branch leaves
+Key=key bind press keyboard anything everything qwerty qwertz mouse click tap
+Textured_Block=textured block fence ladder command block torch noteblock recipe anything everything vanilla blocks
+Structure_Generation=structure generation schematic tree house farm ranch lake island roller coaster anything everything volcano home dungeon instant place generate
+Dimension=dimension biome tree portal igniter structures anything everything nether mars moon neptune
+Mob=monster cat wolf mob sheep cow pig creeper skeleton zombie ender dragon enderman chicken wither boss animal passive hostile herobrine scary anything everything mouse rat bat spider squid car dog wolf golden retriever german sheeper avto pylodev minewolf20 notch honeydev
+Food=food dog eat effects potion sandwich kurkuma eggs boiled cooked potato pizza spaghetti item anything everything banana cake salad green apple pear cakes cookies jaffa cabbage lettuce cherry carrots lemonade vine beans hot cold
+Fuel=fuel furnace coal wood stick smelting item anything everything table stairs smelt burn furnaces
+Basic_Gui=gui basic popup crafting help smelting open anything everything opens mailbox ipod computer map iphone craft smelt

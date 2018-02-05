@@ -1,0 +1,270 @@
+package net.minecraft.src;
+
+import cpw.*;
+import cpw.mods.*;
+import cpw.mods.fml.*;
+import cpw.mods.fml.client.*;
+import cpw.mods.fml.client.modloader.*;
+import cpw.mods.fml.client.registry.*;
+import cpw.mods.fml.common.*;
+import cpw.mods.fml.common.asm.*;
+import cpw.mods.fml.common.asm.transformers.*;
+import cpw.mods.fml.common.discovery.*;
+import cpw.mods.fml.common.discovery.asm.*;
+import cpw.mods.fml.common.event.*;
+import cpw.mods.fml.common.functions.*;
+import cpw.mods.fml.common.modloader.*;
+import cpw.mods.fml.common.network.*;
+import cpw.mods.fml.common.registry.*;
+import cpw.mods.fml.common.toposort.*;
+import cpw.mods.fml.common.versioning.*;
+import cpw.mods.fml.relauncher.*;
+import cpw.mods.fml.server.*;
+import ibxm.*;
+import net.*;
+import net.minecraft.*;
+import net.minecraft.block.*;
+import net.minecraft.block.material.*;
+import net.minecraft.client.*;
+import net.minecraft.client.audio.*;
+import net.minecraft.client.entity.*;
+import net.minecraft.client.gui.*;
+import net.minecraft.client.gui.achievement.*;
+import net.minecraft.client.gui.inventory.*;
+import net.minecraft.client.model.*;
+import net.minecraft.client.multiplayer.*;
+import net.minecraft.client.particle.*;
+import net.minecraft.client.renderer.*;
+import net.minecraft.client.renderer.culling.*;
+import net.minecraft.client.renderer.entity.*;
+import net.minecraft.client.renderer.tileentity.*;
+import net.minecraft.client.settings.*;
+import net.minecraft.command.*;
+import net.minecraft.crash.*;
+import net.minecraft.creativetab.*;
+import net.minecraft.dispenser.*;
+import net.minecraft.enchantment.*;
+import net.minecraft.entity.*;
+import net.minecraft.entity.ai.*;
+import net.minecraft.entity.boss.*;
+import net.minecraft.entity.effect.*;
+import net.minecraft.entity.item.*;
+import net.minecraft.entity.monster.*;
+import net.minecraft.entity.passive.*;
+import net.minecraft.entity.player.*;
+import net.minecraft.entity.projectile.*;
+import net.minecraft.inventory.*;
+import net.minecraft.item.*;
+import net.minecraft.item.crafting.*;
+import net.minecraft.nbt.*;
+import net.minecraft.network.*;
+import net.minecraft.network.packet.*;
+import net.minecraft.network.rcon.*;
+import net.minecraft.pathfinding.*;
+import net.minecraft.potion.*;
+import net.minecraft.profiler.*;
+import net.minecraft.server.*;
+import net.minecraft.server.dedicated.*;
+import net.minecraft.server.gui.*;
+import net.minecraft.server.integrated.*;
+import net.minecraft.server.management.*;
+import net.minecraft.src.*;
+import net.minecraft.stats.*;
+import net.minecraft.tileentity.*;
+import net.minecraft.util.*;
+import net.minecraft.village.*;
+import net.minecraft.world.*;
+import net.minecraft.world.biome.*;
+import net.minecraft.world.chunk.*;
+import net.minecraft.world.chunk.storage.*;
+import net.minecraft.world.demo.*;
+import net.minecraft.world.gen.*;
+import net.minecraft.world.gen.feature.*;
+import net.minecraft.world.gen.layer.*;
+import net.minecraft.world.gen.structure.*;
+import net.minecraft.world.storage.*;
+import net.minecraftforge.*;
+import net.minecraftforge.classloading.*;
+import net.minecraftforge.client.*;
+import net.minecraftforge.client.event.*;
+import net.minecraftforge.client.event.sound.*;
+import net.minecraftforge.common.*;
+import net.minecraftforge.event.*;
+import net.minecraftforge.event.entity.*;
+import net.minecraftforge.event.entity.item.*;
+import net.minecraftforge.event.entity.living.*;
+import net.minecraftforge.event.entity.minecart.*;
+import net.minecraftforge.event.entity.player.*;
+import net.minecraftforge.event.terraingen.*;
+import net.minecraftforge.event.world.*;
+import net.minecraftforge.oredict.*;
+import net.minecraftforge.transformers.*;
+import paulscode.*;
+import paulscode.sound.*;
+import paulscode.sound.codecs.*;
+import org.lwjgl.opengl.GL11;
+import org.lwjgl.input.Keyboard;
+
+import java.util.Random;
+
+@SideOnly(Side.CLIENT)
+public class mcreator_%name% extends BaseMod{
+
+
+public mcreator_%name%(){}
+
+public void load(){
+}
+
+public String getVersion(){
+return "1.0";
+}
+
+public static class GuiWindow extends GuiContainer
+{
+
+	int i = 0;
+	int j = 0;
+	int k = 0;
+	Entity entity = null;
+
+	int posX, posY;
+
+	%constructors%
+
+public GuiWindow(World world, int i, int j, int k, Entity entity){
+	super(new ContainerAABS(((EntityPlayer)entity).inventory));
+	this.i = i;
+	this.j = j;
+	this.k = k;
+	this.entity = entity;
+}
+
+private static final ResourceLocation texture = new ResourceLocation("%texture%");
+
+protected void drawGuiContainerBackgroundLayer(float par1, int par2, int par3)
+{
+	posX = (this.width) /2;
+	posY = (this.height) /2;
+	GL11.glColor4f(1.0F, 1.0F, 1.0F, 1.0F);
+	%bgimage%
+    itemRenderer.zLevel = 100.0F;
+    %bg%
+}
+
+protected void mouseClicked(int par1, int par2, int par3)
+{
+super.mouseClicked(par1, par2, par3);
+%mus%
+}
+
+public void updateScreen()
+{
+posX = (this.width) /2;
+posY = (this.height) /2;
+%us%
+}
+
+protected void keyTyped(char par1, int par2)
+{
+%kt%
+
+if (par2 != 28 && par2 != 156){
+	if (par2 == 1){
+		this.mc.displayGuiScreen((GuiScreen)null);
+	}
+}
+
+}
+
+protected void drawGuiContainerForegroundLayer(int par1, int par2){
+	posX = (this.width) /2;
+	posY = (this.height) /2;
+	%screen%
+}
+
+public void onGuiClosed()
+{
+Keyboard.enableRepeatEvents(false);
+}
+
+public void initGui(){
+Keyboard.enableRepeatEvents(true);
+this.buttonList.clear();
+posX = (this.width) / 2;
+posY = (this.height) / 2;
+%buttons%
+}
+
+protected void actionPerformed(GuiButton button)
+{
+World world = null;
+WorldServer[] list = MinecraftServer.getServer().worldServers;
+for(WorldServer ins : list){
+	if(ins.provider.dimensionId==entity.worldObj.provider.dimensionId)
+		world = ins;
+}
+if(world==null)
+	world = list[0];
+
+%action%
+}
+
+public boolean doesGuiPauseGame()
+{
+    return false;
+}
+
+}
+
+static class ContainerAABS extends Container{
+
+public ContainerAABS(InventoryPlayer par1InventoryPlayer){
+	byte b0 = 51;
+	int offx = 120;
+	int offy = 80;
+	int i;
+	for (i = 0; i < 3; ++i)
+	{
+	    for (int j = 0; j < 9; ++j)
+	    {
+	        this.addSlotToContainer(new Slot(par1InventoryPlayer, j + i * 9 + 9, 8 + j * 18 + offx, i * 18 + b0 + offy));
+	    }
+	}
+
+	for (i = 0; i < 9; ++i)
+	{
+	    this.addSlotToContainer(new Slot(par1InventoryPlayer, i, 8 + i * 18 + offx, 58 + b0 + offy));
+    }
+}
+
+public boolean canInteractWith(EntityPlayer entityplayer){
+return true;
+}
+
+public ItemStack transferStackInSlot(EntityPlayer par1EntityPlayer, int par2)
+    {
+        ItemStack itemstack = null;
+        Slot slot = (Slot)this.inventorySlots.get(par2);
+
+        if (slot != null && slot.getHasStack())
+        {
+            ItemStack itemstack1 = slot.getStack();
+            itemstack = itemstack1.copy();
+
+            if (itemstack1.stackSize == 0)
+            {
+                slot.putStack((ItemStack)null);
+            }
+            else
+            {
+                slot.onSlotChanged();
+            }
+        }
+
+        return itemstack;
+    }
+
+}
+
+}

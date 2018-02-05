@@ -1,0 +1,3139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<blocks>
+	<block>
+		<name>AIR</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STONE</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STONE#1</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STONE#2</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STONE#3</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STONE#4</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STONE#5</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STONE#6</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>GRASS</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>DIRT#2</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>DIRT</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>DIRT#1</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>GRASS_PATH</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>COBBLESTONE</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>PLANKS</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>PLANKS#0</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>PLANKS#1</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>PLANKS#2</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>PLANKS#3</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>PLANKS#4</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>PLANKS#5</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>SAPLING</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>SAPLING#0</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>SAPLING#1</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>SAPLING#2</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>SAPLING#3</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>REEDS</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>BEDROCK</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>SAND</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>SAND#0</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>SAND#1</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>GRAVEL</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>WATER</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>FLOWING_WATER</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>LAVA</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>FLOWING_LAVA</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>GOLD_ORE</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>IRON_ORE</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>COAL_ORE</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>LOG</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>LOG#0</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>LOG#1</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>LOG#2</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>LOG#3</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>LOG2</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>LOG2#0</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>LOG2#1</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>LEAVES</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>LEAVES#0</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>LEAVES#1</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>LEAVES#2</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>LEAVES#3</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>LEAVES2</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>LEAVES2#0</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>LEAVES2#1</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>SPONGE</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>SPONGE#1</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>LAPIS_ORE</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>LAPIS_BLOCK</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>DISPENSER</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>DROPPER</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>SANDSTONE</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>SANDSTONE#0</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>SANDSTONE#1</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>SANDSTONE#2</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>RED_SANDSTONE</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>RED_SANDSTONE#1</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>RED_SANDSTONE#2</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>NOTEBLOCK</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>GOLDEN_RAIL</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>DETECTOR_RAIL</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>ACTIVATOR_RAIL</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>BED</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>WEB</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>TALLGRASS</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>TALLGRASS#0</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>TALLGRASS#1</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>TALLGRASS#2</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>DEADBUSH</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>PISTON</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STICKY_PISTON</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>PISTON_HEAD</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>PISTON_EXTENSION</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>WOOL</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>WOOL#0</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>WOOL#1</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>WOOL#2</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>WOOL#3</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>WOOL#4</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>WOOL#5</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>WOOL#6</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>WOOL#7</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>WOOL#8</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>WOOL#9</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>WOOL#10</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>WOOL#11</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>WOOL#12</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>WOOL#13</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>WOOL#14</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>WOOL#15</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>RED_FLOWER</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>RED_FLOWER#0</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>RED_FLOWER#1</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>RED_FLOWER#2</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>RED_FLOWER#3</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>RED_FLOWER#4</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>RED_FLOWER#5</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>RED_FLOWER#6</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>RED_FLOWER#7</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>RED_FLOWER#8</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>YELLOW_FLOWER</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>DOUBLE_PLANT</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>DOUBLE_PLANT#0</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>DOUBLE_PLANT#1</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>DOUBLE_PLANT#2</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>DOUBLE_PLANT#3</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>BROWN_MUSHROOM</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>RED_MUSHROOM</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>GOLD_BLOCK</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>IRON_BLOCK</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>BRICK_BLOCK</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>TNT</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>BOOKSHELF</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>MOSSY_COBBLESTONE</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>OBSIDIAN</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>TORCH</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>FIRE</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>MOB_SPAWNER</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>OAK_STAIRS</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>CHEST</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>DIAMOND_ORE</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>DIAMOND_BLOCK</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>REDSTONE_WIRE</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>CRAFTING_TABLE</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>WHEAT</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>FARMLAND</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>FURNACE</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>LIT_FURNACE</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STANDING_SIGN</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>WALL_SIGN</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>OAK_DOOR</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>SPRUCE_DOOR</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>BIRCH_DOOR</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>JUNGLE_DOOR</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>ACACIA_DOOR</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>DARK_OAK_DOOR</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>IRON_DOOR</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>LADDER</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>RAIL</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STONE_STAIRS</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>LEVER</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STONE_PRESSURE_PLATE</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>WOODEN_PRESSURE_PLATE</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>REDSTONE_ORE</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>LIT_REDSTONE_ORE</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>UNLIT_REDSTONE_TORCH</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>REDSTONE_TORCH</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STONE_BUTTON</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>SNOW_LAYER</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>ICE</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>PACKED_ICE</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>FROSTED_ICE</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>SNOW</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>CACTUS</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>CLAY</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>TRIPWIRE</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>JUKEBOX</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>OAK_FENCE</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>SPRUCE_FENCE</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>BIRCH_FENCE</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>JUNGLE_FENCE</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>DARK_OAK_FENCE</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>ACACIA_FENCE</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>NETHERRACK</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>SOUL_SAND</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>NETHER_WART</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>GLOWSTONE</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>CAKE</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>UNPOWERED_REPEATER</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>POWERED_REPEATER</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>UNPOWERED_COMPARATOR</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>POWERED_COMPARATOR</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>TRAPDOOR</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STONEBRICK</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STONEBRICK#0</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STONEBRICK#1</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STONEBRICK#2</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STONEBRICK#3</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>BROWN_MUSHROOM_BLOCK</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>RED_MUSHROOM_BLOCK</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>IRON_BARS</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>MELON_BLOCK</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>MELON_STEM</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>PUMPKIN</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>PUMPKIN_STEM</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>LIT_PUMPKIN</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>VINE</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>OAK_FENCE_GATE</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>SPRUCE_FENCE_GATE</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>BIRCH_FENCE_GATE</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>JUNGLE_FENCE_GATE</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>DARK_OAK_FENCE_GATE</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>ACACIA_FENCE_GATE</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>BRICK_STAIRS</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STONE_BRICK_STAIRS</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>MYCELIUM</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>WATERLILY</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>NETHER_BRICK</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>NETHER_BRICK_FENCE</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>NETHER_BRICK_STAIRS</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>ENCHANTING_TABLE</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>MONSTER_EGG</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>BREWING_STAND</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>CAULDRON</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>REDSTONE_LAMP</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>LIT_REDSTONE_LAMP</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>END_PORTAL</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>END_PORTAL_FRAME</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>END_GATEWAY</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>END_STONE</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>END_ROD</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>PURPUR_BLOCK</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>PURPUR_PILLAR</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>PURPUR_STAIRS</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>PURPUR_DOUBLE_SLAB</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>PURPUR_SLAB</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>END_BRICKS</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>BEETROOTS</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>CHORUS_PLANT</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>CHORUS_FLOWER</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>DRAGON_EGG</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>TRIPWIRE_HOOK</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>EMERALD_ORE</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>EMERALD_BLOCK</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>ENDER_CHEST</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>WOODEN_SLAB</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>WOODEN_SLAB#0</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>WOODEN_SLAB#1</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>WOODEN_SLAB#2</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>WOODEN_SLAB#3</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STONE_SLAB</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STONE_SLAB#1</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STONE_SLAB#2</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STONE_SLAB#3</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STONE_SLAB#4</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STONE_SLAB#5</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STONE_SLAB#6</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STONE_SLAB#7</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STONE_SLAB2</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>COCOA</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>SANDSTONE_STAIRS</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>RED_SANDSTONE_STAIRS</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>JUNGLE_STAIRS</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>BIRCH_STAIRS</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>SPRUCE_STAIRS</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>PORTAL</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>ANVIL</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>BEACON</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>COBBLESTONE_WALL</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>COBBLESTONE_WALL#1</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>COMMAND_BLOCK</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>REPEATING_COMMAND_BLOCK</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>CHAIN_COMMAND_BLOCK</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>FLOWER_POT</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>CARROTS</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>POTATOES</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>SKULL</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>SKULL#1</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>SKULL#2</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>SKULL#3</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>SKULL#4</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>WOODEN_BUTTON</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>HARDENED_CLAY</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>COAL_BLOCK</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>HAY_BLOCK</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>TRAPPED_CHEST</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>LIGHT_WEIGHTED_PRESSURE_PLATE</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>HEAVY_WEIGHTED_PRESSURE_PLATE</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>DAYLIGHT_DETECTOR</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>DAYLIGHT_DETECTOR_INVERTED</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>REDSTONE_BLOCK</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>QUARTZ_ORE</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>HOPPER</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>QUARTZ_BLOCK</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>QUARTZ_BLOCK#1</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>QUARTZ_BLOCK#2</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>QUARTZ_STAIRS</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_HARDENED_CLAY</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_HARDENED_CLAY#0</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_HARDENED_CLAY#1</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_HARDENED_CLAY#2</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_HARDENED_CLAY#3</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_HARDENED_CLAY#4</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_HARDENED_CLAY#5</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_HARDENED_CLAY#6</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_HARDENED_CLAY#7</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_HARDENED_CLAY#8</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_HARDENED_CLAY#9</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_HARDENED_CLAY#10</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_HARDENED_CLAY#11</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_HARDENED_CLAY#12</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_HARDENED_CLAY#13</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_HARDENED_CLAY#14</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_HARDENED_CLAY#15</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>CARPET</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>CARPET#1</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>CARPET#2</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>CARPET#3</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>CARPET#4</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>CARPET#5</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>CARPET#6</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>CARPET#7</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>CARPET#8</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>CARPET#9</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>CARPET#10</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>CARPET#11</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>CARPET#12</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>CARPET#13</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>CARPET#14</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>CARPET#15</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>ACACIA_STAIRS</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>DARK_OAK_STAIRS</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>GLASS</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_GLASS</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_GLASS#0</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_GLASS#1</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_GLASS#2</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_GLASS#3</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_GLASS#4</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_GLASS#5</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_GLASS#6</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_GLASS#7</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_GLASS#8</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_GLASS#9</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_GLASS#10</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_GLASS#11</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_GLASS#12</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_GLASS#13</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_GLASS#14</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_GLASS#15</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>GLASS_PANE</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_GLASS_PANE</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_GLASS_PANE#0</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_GLASS_PANE#1</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_GLASS_PANE#2</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_GLASS_PANE#3</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_GLASS_PANE#4</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_GLASS_PANE#5</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_GLASS_PANE#6</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_GLASS_PANE#7</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_GLASS_PANE#8</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_GLASS_PANE#9</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_GLASS_PANE#10</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_GLASS_PANE#11</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_GLASS_PANE#12</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_GLASS_PANE#13</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_GLASS_PANE#14</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STAINED_GLASS_PANE#15</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>SEA_LANTERN</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>PRISMARINE</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>PRISMARINE#0</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>PRISMARINE#1</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>PRISMARINE#2</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>IRON_TRAPDOOR</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>SLIME_BLOCK</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>BARRIER</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STANDING_BANNER</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>WALL_BANNER</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STRUCTURE_BLOCK</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STRUCTURE_BLOCK#0</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STRUCTURE_BLOCK#1</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STRUCTURE_BLOCK#2</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>STRUCTURE_BLOCK#3</name>
+		<type>Block</type>
+	</block>
+
+	<block>
+		<name>DYE</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>DYE#0</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>DYE#1</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>DYE#2</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>DYE#3</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>DYE#4</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>DYE#5</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>DYE#6</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>DYE#7</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>DYE#8</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>DYE#9</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>DYE#10</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>DYE#11</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>DYE#12</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>DYE#13</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>DYE#14</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>DYE#15</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>APPLE</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>BOW</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>ARROW</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>SPECTRAL_ARROW</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>TIPPED_ARROW</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>COAL</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>COAL#1</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>DIAMOND</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>EMERALD</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>PRISMARINE_SHARD</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>PRISMARINE_CRYSTALS</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>IRON_INGOT</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>GOLD_INGOT</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>IRON_SWORD</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>IRON_SHOVEL</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>IRON_PICKAXE</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>IRON_AXE</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>FLINT_AND_STEEL</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>WOODEN_SWORD</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>WOODEN_SHOVEL</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>WOODEN_PICKAXE</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>WOODEN_AXE</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>STONE_SWORD</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>STONE_SHOVEL</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>STONE_PICKAXE</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>STONE_AXE</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>DIAMOND_SWORD</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>DIAMOND_SHOVEL</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>DIAMOND_PICKAXE</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>DIAMOND_AXE</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>STICK</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>BOWL</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>MUSHROOM_STEW</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>GOLDEN_SWORD</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>GOLDEN_SHOVEL</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>GOLDEN_PICKAXE</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>GOLDEN_AXE</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>STRING</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>FEATHER</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>GUNPOWDER</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>WOODEN_HOE</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>STONE_HOE</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>IRON_HOE</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>DIAMOND_HOE</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>GOLDEN_HOE</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>WHEAT_SEEDS</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>WHEAT</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>BREAD</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>PUMPKIN_SEEDS</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>PUMPKIN_SEEDS</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>LEATHER_HELMET</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>LEATHER_CHESTPLATE</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>LEATHER_LEGGINGS</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>LEATHER_BOOTS</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>CHAINMAIL_HELMET</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>CHAINMAIL_CHESTPLATE</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>CHAINMAIL_LEGGINGS</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>CHAINMAIL_BOOTS</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>IRON_HELMET</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>IRON_CHESTPLATE</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>IRON_LEGGINGS</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>IRON_BOOTS</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>DIAMOND_HELMET</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>DIAMOND_CHESTPLATE</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>DIAMOND_LEGGINGS</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>DIAMOND_BOOTS</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>GOLDEN_HELMET</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>GOLDEN_CHESTPLATE</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>GOLDEN_LEGGINGS</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>GOLDEN_BOOTS</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>FLINT</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>PORKCHOP</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>COOKED_PORKCHOP</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>PAINTING</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>GOLDEN_APPLE</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>SIGN</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>OAK_DOOR</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>SPRUCE_DOOR</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>BIRCH_DOOR</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>JUNGLE_DOOR</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>ACACIA_DOOR</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>DARK_OAK_DOOR</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>IRON_DOOR</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>BUCKET</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>WATER_BUCKET</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>LAVA_BUCKET</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>MILK_BUCKET</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>MINECART</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>CHEST_MINECART</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>FURNACE_MINECART</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>TNT_MINECART</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>HOPPER_MINECART</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>COMMAND_BLOCK_MINECART</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>SADDLE</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>REDSTONE</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>SNOWBALL</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>BOAT</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>SPRUCE_BOAT</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>BIRCH_BOAT</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>JUNGLE_BOAT</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>ACACIA_BOAT</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>DARK_OAK_BOAT</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>LEATHER</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>BRICK</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>CLAY_BALL</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>REEDS</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>PAPER</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>SLIME_BALL</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>EGG</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>COMPASS</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>FISHING_ROD</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>CLOCK</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>GLOWSTONE_DUST</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>FISH</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>COOKED_FISH</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>BONE</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>SUGAR</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>CAKE</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>BED</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>REPEATER</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>COOKIE</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>FILLED_MAP</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>SHEARS</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>MELON</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>MELON_SEEDS</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>BEEF</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>COOKED_BEEF</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>CHICKEN</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>COOKED_CHICKEN</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>RABBIT</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>COOKED_RABBIT</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>RABBIT_STEW</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>RABBIT_FOOT</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>RABBIT_HIDE</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>MUTTON</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>COOKED_MUTTON</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>ROTTEN_FLESH</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>ENDER_PEARL</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>ENDER_EYE</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>END_CRYSTAL</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>CHORUS_FRUIT</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>CHORUS_FRUIT_POPPED</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>BEETROOT_SEEDS</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>BEETROOT</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>BEETROOT_SOUP</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>BLAZE_ROD</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>GHAST_TEAR</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>GOLD_NUGGET</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>NETHER_WART</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>POTIONITEM</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>SPLASH_POTION</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>LINGERING_POTION</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>DRAGON_BREATH</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>GLASS_BOTTLE</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>SPIDER_EYE</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>FERMENTED_SPIDER_EYE</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>BLAZE_POWDER</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>MAGMA_CREAM</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>BREWING_STAND</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>CAULDRON</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>SPECKLED_MELON</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>SPAWN_EGG</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>SPAWN_EGG#50</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>SPAWN_EGG#51</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>SPAWN_EGG#52</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>SPAWN_EGG#54</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>SPAWN_EGG#55</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>SPAWN_EGG#56</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>SPAWN_EGG#57</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>SPAWN_EGG#58</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>SPAWN_EGG#59</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>SPAWN_EGG#60</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>SPAWN_EGG#61</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>SPAWN_EGG#62</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>SPAWN_EGG#65</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>SPAWN_EGG#66</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>SPAWN_EGG#67</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>SPAWN_EGG#68</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>SPAWN_EGG#90</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>SPAWN_EGG#91</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>SPAWN_EGG#92</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>SPAWN_EGG#93</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>SPAWN_EGG#94</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>SPAWN_EGG#95</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>SPAWN_EGG#96</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>SPAWN_EGG#98</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>SPAWN_EGG#100</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>SPAWN_EGG#101</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>SPAWN_EGG#120</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>EXPERIENCE_BOTTLE</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>FIRE_CHARGE</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>BOOK</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>WRITABLE_BOOK</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>WRITTEN_BOOK</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>ENCHANTED_BOOK</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>RECORD_13</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>RECORD_CAT</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>RECORD_BLOCKS</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>RECORD_CHIRP</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>RECORD_FAR</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>RECORD_MALL</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>RECORD_MELLOHI</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>RECORD_STAL</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>RECORD_STRAD</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>RECORD_WARD</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>RECORD_11</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>RECORD_WAIT</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>SKULL</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>SKULL#1</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>SKULL#2</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>SKULL#3</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>SKULL#4</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>CARROT</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>POTATO</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>BAKED_POTATO</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>POISONOUS_POTATO</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>PUMPKIN_PIE</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>CARROT_ON_A_STICK</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>GOLDEN_CARROT</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>ITEM_FRAME</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>MAP</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>FLOWER_POT</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>FIREWORKS</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>FIREWORK_CHARGE</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>COMPARATOR</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>NETHERBRICK</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>QUARTZ</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>IRON_HORSE_ARMOR</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>GOLDEN_HORSE_ARMOR</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>DIAMOND_HORSE_ARMOR</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>LEAD</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>NAME_TAG</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>NETHER_STAR</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>ARMOR_STAND</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>BANNER</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>SHIELD</name>
+		<type>Item</type>
+	</block>
+
+	<block>
+		<name>ELYTRA</name>
+		<type>Item</type>
+	</block>
+
+</blocks>

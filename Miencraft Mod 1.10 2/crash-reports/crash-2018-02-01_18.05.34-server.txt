@@ -1,0 +1,108 @@
+---- Minecraft Crash Report ----
+// Surprise! Haha. Well, this is awkward.
+
+Time: 2/1/18 6:05 PM
+Description: Ticking player
+
+java.lang.ArrayIndexOutOfBoundsException: 3
+	at com.brett.nimbix.tileentitys.TileEntityInfuser.getStackInSlot(TileEntityInfuser.java:67)
+	at net.minecraft.inventory.Slot.getStack(Slot.java:83)
+	at net.minecraft.inventory.Container.detectAndSendChanges(Container.java:92)
+	at com.brett.nimbix.container.ContainerInfuserOLD.detectAndSendChanges(ContainerInfuserOLD.java:51)
+	at net.minecraft.entity.player.EntityPlayerMP.onUpdate(EntityPlayerMP.java:296)
+	at net.minecraft.world.World.updateEntityWithOptionalForce(World.java:2118)
+	at net.minecraft.world.WorldServer.updateEntityWithOptionalForce(WorldServer.java:875)
+	at net.minecraft.world.World.updateEntity(World.java:2085)
+	at net.minecraft.world.WorldServer.tickPlayers(WorldServer.java:676)
+	at net.minecraft.world.World.updateEntities(World.java:1874)
+	at net.minecraft.world.WorldServer.updateEntities(WorldServer.java:647)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:784)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:688)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:156)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:537)
+	at java.lang.Thread.run(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at com.brett.nimbix.tileentitys.TileEntityInfuser.getStackInSlot(TileEntityInfuser.java:67)
+	at net.minecraft.inventory.Slot.getStack(Slot.java:83)
+	at net.minecraft.inventory.Container.detectAndSendChanges(Container.java:92)
+	at com.brett.nimbix.container.ContainerInfuserOLD.detectAndSendChanges(ContainerInfuserOLD.java:51)
+	at net.minecraft.entity.player.EntityPlayerMP.onUpdate(EntityPlayerMP.java:296)
+	at net.minecraft.world.World.updateEntityWithOptionalForce(World.java:2118)
+	at net.minecraft.world.WorldServer.updateEntityWithOptionalForce(WorldServer.java:875)
+	at net.minecraft.world.World.updateEntity(World.java:2085)
+
+-- Player being ticked --
+Details:
+	Entity Type: null (net.minecraft.entity.player.EntityPlayerMP)
+	Entity ID: 475
+	Entity Name: Player512
+	Entity's Exact location: 232.64, 80.13, -66.48
+	Entity's Block location: World: (232,80,-67), Chunk: (at 8,5,13 in 14,-5; contains blocks 224,0,-80 to 239,255,-65), Region: (0,-1; contains chunks 0,-32 to 31,-1, blocks 0,0,-512 to 511,255,-1)
+	Entity's Momentum: 0.00, 0.00, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: ~~ERROR~~ NullPointerException: null
+Stacktrace:
+	at net.minecraft.world.WorldServer.tickPlayers(WorldServer.java:676)
+	at net.minecraft.world.World.updateEntities(World.java:1874)
+	at net.minecraft.world.WorldServer.updateEntities(WorldServer.java:647)
+
+-- Affected level --
+Details:
+	Level name: New World
+	All players: 1 total; [EntityPlayerMP['Player512'/475, l='New World', x=232.64, y=80.13, z=-66.48]]
+	Chunk stats: ServerChunkCache: 625 Drop: 0
+	Level seed: -8805183034027412457
+	Level generator: ID 00 - default, ver 1. Features enabled: true
+	Level generator options: 
+	Level spawn location: World: (192,64,-113), Chunk: (at 0,4,15 in 12,-8; contains blocks 192,0,-128 to 207,255,-113), Region: (0,-1; contains chunks 0,-32 to 31,-1, blocks 0,0,-512 to 511,255,-1)
+	Level time: 5150 game time, 5150 day time
+	Level dimension: 0
+	Level storage version: 0x04ABD - Anvil
+	Level weather: Rain time: 137852 (now: false), thunder time: 172485 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: true
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:784)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:688)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:156)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:537)
+	at java.lang.Thread.run(Unknown Source)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.10.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_161, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 906842384 bytes (864 MB) / 1785724928 bytes (1703 MB) up to 5719457792 bytes (5454 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 13, tallocated: 95
+	FML: MCP 9.32 Powered by Forge 12.18.3.2297 9 mods loaded, 9 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAAAA	mcp{9.19} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAAAA	FML{8.0.99.99} [Forge Mod Loader] (forgeSrc-1.10.2-12.18.3.2297.jar) 
+	UCHIJAAAA	Forge{12.18.3.2297} [Minecraft Forge] (forgeSrc-1.10.2-12.18.3.2297.jar) 
+	UCHIJAAAA	ccl-entityhook{1.0} [ccl-entityhook] (CodeChickenLib-1.10.2-2.5.9.267-universal.jar) 
+	UCHIJAAAA	mod{0.0.1} [brettsmod] (bin) 
+	UCHIJAAAA	examplemod{1.0} [Example Mod] (bin) 
+	UCHIJAAAA	CodeChickenLib{2.5.9.267} [CodeChicken Lib] (CodeChickenLib-1.10.2-2.5.9.267-universal.jar) 
+	UCHIJAAAA	brandonscore{9.9.9} [Brandon's Core] (BrandonsCore-1.10.2-2.1.7.102-universal.jar) 
+	UCHIJAAAA	cjcore{0.0.1.5} [CJCore] (cjcore-1.10-0.0.1.5.jar) 
+	Loaded coremods (and transformers): 
+Brandon's Core (BrandonsCore-1.10.2-2.1.7.102-universal.jar)
+  com.brandon3055.brandonscore.asm.ClassTransformer
+CCLCorePlugin (CodeChickenLib-1.10.2-2.5.9.267-universal.jar)
+  codechicken.lib.asm.ClassHeirachyManager
+  codechicken.lib.asm.CCL_ASMTransformer
+	GL info: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+	CodeChickenLib Invalid Fingerprint Reports: 
+	Profiler Position: N/A (disabled)
+	Player Count: 1 / 8; [EntityPlayerMP['Player512'/475, l='New World', x=232.64, y=80.13, z=-66.48]]
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fml,forge'

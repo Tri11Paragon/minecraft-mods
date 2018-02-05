@@ -1,0 +1,18 @@
+<html>
+<center><h2>How to use AI tasks</h2></center>
+AI Tasks are parameters that define the behavior of the mob. If you enable AI tasks, mob doesn't have any of them by the default and just stands in place without movement. <b>Even if you set it to monster, it won't attack. If you want to "learn" your mob how to behave, you need to add tasks</b>.
+<br><br>
+<b>Usually used tasks:</b> some tasks are almost must have if you select mob has AI: <b>Swimming ability, Wander, Look around</b>
+<br><br>
+Here are explanations of some tasks:<br>
+<ul>
+<li><b>Swimming ability: </b>If you don't add this task, mob won't stay on the top of the water. It will sink.</li>
+<li><b>Break doors: </b>Mob will tend to break doors.</li>
+<li><b>Look around: </b>Mob will move itself around the environment.</li>
+<li><b>Folow to item holding by player: </b>Mob will follow to the selected item.</li>
+<li><b>Avoid entity: </b>Mob will avoid selected entity</li>
+<li><b>Watch closest entity: </b>Mob will move its head (part of it named head)</li>
+<li><b>Wander: </b>Without this AI Task, you mob with custom AI won't move</li>
+<li><b>Panic when attacked: </b>Mob will move fast when something hurts it</li>
+</ul>
+</html>

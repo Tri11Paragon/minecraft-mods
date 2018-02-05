@@ -1,0 +1,6 @@
+{ 
+	"parent":"mod:block/TinOre",
+	"textures":{
+		"all": "mod:blocks/TinOre"
+	}
+}

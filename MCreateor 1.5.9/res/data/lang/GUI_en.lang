@@ -1,0 +1,222 @@
+#English edition of MCreator's interface text
+#Author: Klemen Pevec
+
+#Main menu
+new=New mod
+mlist=Mod's list
+tools=Tools
+help=Help
+exit=Exit
+
+#GUI strings
+back=Back
+next=Next
+yes=Yes
+no=No
+ok=OK
+cancel=Cancel
+confirm=Confirmation
+warn=Warning
+done=Finish
+shutdown=<html>Program didn't shut down correctly or you have restarted it.<br>Please contact us if you haven't restarted it and we'll help you.
+
+#Mod names
+block=Custom block
+item=Custom item
+tool=Tool
+armor=Armour
+food=Food
+plant=Plant
+m_bio=Biome
+recip=Recipe
+txblo=Textured block
+flup=Fluid
+m_ach=Achievement
+txite=Textured item
+
+#MCP setup
+label1=Cleaning old data
+label2=Copying minecraft to MCP folder
+label3=Decompiling
+label4=When console(CMD) closes, click "Next"
+label5=Preparation for use
+label6=Minecraft doesn't have ModLoader
+label7=Install ModLoader in Minecraft and try again.
+label8=In folder %appdata%/.minecraft minecraft wasn't found!
+label9=Install minecraft and try again!
+
+#MCreator cleanup
+clean=MCreator will close. When you open it again, it's going to be restarted.
+sure3=<html>Are you sure that you want reset MCreator?<br><b>All data will be lost!</b>
+
+#Project list
+sure1=Are you sure that you want to delete this mod?
+sure2=Are you sure that you want to delete all mods?
+delete=Delete
+pack=Pack
+delete_all=Delete all
+pack_all=Pack all
+
+#NBT editor
+c_world=Selection of world
+s_world=Choose world that you want to edit:
+save=Save
+save2=Save & Recompile
+
+#NewBlockGUI
+sb1=Show code after creation
+sb2=Start test environment after creation
+sb3=Don't render as normal block
+sb4=Has alpha?
+title1=<html> <font size=5><b>Step 1</b></font> - <b>Name and material
+title2=<html> <font size=5><b>Step 2</b></font> - <b>Texture selection
+title3=<html> <font size=5><b>Step 3</b></font> - <b>Physical characteristics
+title4=<html> <font size=5><b>Step 4</b></font> - <b>Events
+title5=<html> <font size=5><b>Step 5</b></font> - <b>Recipes and world creation
+title6=<html> <font size=5><b>Step 6</b></font> - <b>Creation
+b_name=Block name:
+b_material=Material:
+n_gui=Name in GUI:
+n_hard=Hardness:
+n_res=Resistance:
+n_sound=Sound on step:
+n_light=Luminance:
+n_grav=Has gravity?
+n_dest=Is unbreakable?
+n_drop=Drop amount:
+n_nodrop=Doesn't drop itself?
+n_dropw=Block that drops:
+n_col=Isn't collidable?
+n_re=Can provide power?
+n_opa=Light opacity:
+n_end=<html>For creation of block click on finish.<br>Check boxes if you want to see code or start test environment. <br>Block will be added to list of mods.
+n_err1=Block must have name!
+n_err2=Block must have texture on all sides!
+n_err3=Block must have name in GUI!
+n_err4=If you select that block doesnt'drop itself, choose what will it drop!
+genw=Generate in world
+genn=Generate in nether
+am1=Frequency on chunks
+am2=Frequency on specific chunk
+reci=Recipes
+gw=World generation
+
+#NewFoodGUI
+h_title1=<html> <font size=5><b>Step 1</b></font> - <b>Name and stack size
+h_title2=<html> <font size=5><b>Step 2</b></font> - <b>Texture selection
+h_title3=<html> <font size=5><b>Step 3</b></font> - <b>Properties
+h_title4=<html> <font size=5><b>Step 4</b></font> - <b>Recipe
+h_title5=<html> <font size=5><b>Step 5</b></font> - <b>Creation
+h_name=Item name:
+h_stack=Stack size:
+h_food=Nutritional value:
+h_dog=Is food for dogs?
+h_potq=Has effect of potion?
+h_pot=Potion type:
+h_pott=Time of potion effect:
+h_potc=Chance of infection (in %):
+h_end=<html>For creation of item click on finish.<br>Check boxes if you want to see code or start test environment. <br>Item will be added to list of mods.
+h_err1=Item must have name!
+h_err2=Item must have name in GUI!
+h_err3=Item must have texture!
+
+#NewItemGUI
+u_title1=<html> <font size=5><b>Step 1</b></font> - <b>Name
+u_title2=<html> <font size=5><b>Step 2</b></font> - <b>Texture selection
+u_title5=<html> <font size=5><b>Step 3</b></font> - <b>Properties
+u_title3=<html> <font size=5><b>Step 5</b></font> - <b>Recipe
+u_title4=<html> <font size=5><b>Step 6</b></font> - <b>Creation
+u_err1=Item must have name and name in GUI!
+it_t1=Is magic item?
+it_t2=Enchantability:
+it_t3=Max item usage duration:
+it_t4=Type of tool (1 - not tool, 1.5 sword, 2> tool):
+it_t5=Damage to mob:
+it_t6=Item damage count:
+it_t7=Can destroy any block?
+it_t8=Does item stay in crafting grid?
+it_t9=Special information (separate with ,):
+
+#NewArmorGUI
+a_err1=Armour doesn't have set all textures.
+a_err2=Armour must have name, name of texture (valid) and the basis for the recipe!
+rs1=Helmet
+rs2=Body
+rs3=Leggings
+rs4=Boots
+col1=Name of armour:
+col2=Name of texture file:
+col3=Base for recipe:
+col4=Based on:
+
+#NewToolGUI
+tol_t0=Type:
+tol_t1=Harvest level:
+tol_t2=Efficiency:
+tol_t3=Enchantability:
+tol_t4=Damage vs mob/animal:
+tol_t5=Number of uses:
+
+#NewTXBlockGUI
+b_extend=Based on:
+
+#NewBiomeGUI
+biome_t1=<html> <font size=5><b>Step 1</b></font> - <b>Name of biome
+bi_title2=<html> <font size=5><b>Step 2&3</b></font> - <b>Properties of biome
+bi_title3=<html> <font size=5><b>Step 2&3</b></font> - <b>Creation of biome
+bi_end=<html>For creation of biome click on finish.<br>Check boxes if you want to see code or start test environment. <br>Biome will be added to list of mods.
+bi_name=Biome name:
+bi_err1=Biome must have name!
+bi_tt1=Ground block:
+bi_tt2=Underground block:
+bi_tt3=Generate lakes?
+bi_tt4=Trees per chunk:
+bi_tt5=Grass per chunk:
+bi_tt6=Flowers per chunk:
+bi_tt7=Mushrooms per chunk:
+bi_tt8=Sand per chunk:
+bi_tt9=Reeds per chunk:
+bi_tt10=Cacti per chunk:
+bi_tt11=Deadbushes per chunk:
+bi_tt12=Raining possibility (0-1)
+bi_tt13=Minimum height difference:
+bi_tt14=Maximum height difference:
+
+
+#Texture selector
+f_name=Name of picture:
+
+#Tools expressions
+nbt=NBT editor
+client=Start test environment
+recompile=Recompile
+mcp=Open MCP folder
+wiki=Open Minecraft wiki
+reset_mc=Reset program
+to_zip=Add sprite map
+to_zip2=Add armor texture
+img=New image
+use=Use
+
+#EventDialog
+power=Power: 
+console=Text to print to console: 
+damagedeal=Hearts of damage to deal (ex. 1): 
+ligval=Light value: 
+sid=Sound id: 
+pid=Particle id: 
+wad=Webpage address: 
+tmnd=Time (ex. 16000 is night, 0 is day): 
+recnam=Record name: 
+soptf=State of power (true/false): 
+vnam=Variable name: 
+val=Value: 
+ach=Achievement: 
+aofex=Amount of damage (ex. 1): 
+cfu=<html><center>This event is in development.<br>Check updates on mcreator.pylo.co
+sev=<html><h2>Events</h2>Select event, <b>type all parameters</b> and add condition if you wish<br>
+sev2=<html><h2>AI Tasks</h2>Select task, and <b>type all parameters</b><br>
+tch=Type code here
+
+#Other
+adeve=Add event

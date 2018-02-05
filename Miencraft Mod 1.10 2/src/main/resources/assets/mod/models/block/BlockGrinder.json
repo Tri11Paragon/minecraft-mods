@@ -1,0 +1,9 @@
+{
+    "parent": "block/orientable",
+    "textures": 
+    {
+        "top": "blocksmith:blocks/grinder_top",
+        "front": "blocksmith:blocks/grinder_front",
+        "side": "blocksmith:blocks/grinder_side"
+    }
+}

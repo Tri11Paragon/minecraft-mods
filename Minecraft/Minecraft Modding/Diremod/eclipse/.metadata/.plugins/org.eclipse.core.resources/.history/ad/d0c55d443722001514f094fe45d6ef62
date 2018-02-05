@@ -1,0 +1,52 @@
+package com.brett;
+
+import com.brett.worldgen.worldgenclass;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.SidedProxy;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.event.FMLServerStartingEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
+
+	@Mod(modid = MainClass.MODID, name = MainClass.NAME, version = MainClass.VERSION)
+	public class MainClass
+	{
+		
+		public static worldgenclass worldgen = new worldgenclass(); 
+		
+		public static int helmetID;
+		public static int chestplateID;
+		public static int leggingsID;
+		public static int bootsID;
+		
+		public static final String MODID = "diremod";
+		public static final String NAME = "diremod";
+		public static final String VERSION = "0.0.1";
+		
+		public static Block sheild = new sheild(Material.rock).setBlockName("sheild");
+		public static Block sheildBlock = new sheildBlock(Material.rock).setBlockName("sheildblock");
+		
+		public static Block solarPannels = new solarPannels(Material.rock).setBlockName("solarPannels");
+		public static Block pipe = new pipe(Material.rock).setBlockName("pipe");
+	
+	@EventHandler
+    public void init(FMLInitializationEvent event)
+    {
+		//GameRegistry.registerBlock(sheild, "sheild");
+		//GameRegistry.registerBlock(sheildBlock, "sheildblock");
+		//GameRegistry.registerBlock(solarPannels, "solarPannels");
+		//GameRegistry.registerBlock(pipe, "pipe");
+		GameRegistry.registerBlock(test, "test");
+		GameRegistry.registerWorldGenerator(worldgen, 1);
+    }
+    @EventHandler
+    public void serverLoad(FMLServerStartingEvent event){
+
+    }
+    public void preInit(FMLPreInitializationEvent event){
+    }
+}

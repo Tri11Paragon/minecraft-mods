@@ -1,0 +1,23 @@
+<html>
+<center><h2>How to use events</h2></center>
+Coorrdinates x, y and z can be set using coordinates of event location. These are i, j and k. If you leave i, j and k, result of event will happen on the location of event trigger.
+<br><center><img width=170 height=120 src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRCYWwCecqeqnq2RuXau6gpgJwgFulTzAegHuEGv2Wk1lbmmZ1s"></center><br>
+You can also use mathematical operations in x, y and z window. Example:<br>
+<img src="http://mcreator.pylo.si/app/html/ex1.png"><br>
+This will place dirt block 6 blocks above location of event. Here is advanced example:<br><br>
+<b>y:</b><code> j + (int)(Math.random()*10)</code><br><br>
+This will do something from 0 to 10 blocks above location of event. We achieve this using this part of code:<br><br>
+<code>(int)(Math.random()*10)</code><br><br>
+You can also change range of random. This will give random number from 5 to 10:<br><br>
+<code>(int)(Math.random()*5)+5</code>
+<br><br>You can use this mathematical expressions: +, -, * and /.<br>You can also check remainder of the division like this:<br><br>
+<code>3%2</code><br><br>
+This would give you 1 because 3/2 = 1 + (1 remainder)<br><br>
+You can find more functions similar to random on <a href="http://docs.oracle.com/javase/1.4.2/docs/api/java/lang/Math.html">this</a> website.<br>
+List of operators can be found on <a href="http://docs.oracle.com/javase/tutorial/java/nutsandbolts/opsummary.html">this</a> website.<br><br>
+This will make explosion on the location of event with power of explosion based on height of event location. For example on level 120 this explosion will have power 120*4. This amount of power would most likely freeze computer.<br>
+<br><img src="http://mcreator.pylo.si/app/html/ex2.png"><br><br>
+This example would hurt entity that triggered event based on half of current height. If entity would be at level 50, this will send 25 damage to it.<br>
+<br><img src="http://mcreator.pylo.si/app/html/ex3.png"><br><br><br>
+<br>More help at events can be found on <a href="http://www.pylo.si/mcreator/wiki/index.php?title=Usage_of_events">MCreator's wiki page</a>.
+</html>

@@ -1,0 +1,267 @@
+M:\Minecraft stuff\FTB\FTBLauncherLog.txt: written by FTB Launcher
+[07:07:04] [DEBUG] Main.main:170: Launcher arguments: []
+[07:07:05] [DEBUG] Main.main:171: Launcher PID: 7660
+[07:07:05] [DEBUG] Main.main:182: FTB Launcher CI Build #: 344, Git SHA: b7f7123d76dc
+[07:07:06] [INFO] JGoogleAnalyticsTracker$2.run:484: AnalyticsBackgroundThread started
+[07:07:06] [INFO] MainHelpers.printInfo:39: FTBLaunch starting up (version 1.4.8 Build: 10408)
+[07:07:06] [DEBUG] MainHelpers.printInfo:40: System's default JVM: (This is not always used to launch MC)
+[07:07:06] [DEBUG] MainHelpers.printInfo:41: Java version: 1.8.0_45
+[07:07:06] [DEBUG] MainHelpers.printInfo:42: Java vendor: Oracle Corporation
+[07:07:06] [DEBUG] MainHelpers.printInfo:43: Java home: C:\Program Files\Java\jre1.8.0_45
+[07:07:06] [DEBUG] MainHelpers.printInfo:44: Java specification: Java Virtual Machine Specification version: 1.8 by Oracle Corporation
+[07:07:06] [DEBUG] MainHelpers.printInfo:46: Java vm: Java HotSpot(TM) 64-Bit Server VM version: 25.45-b02 by Oracle Corporation
+[07:07:06] [INFO] MainHelpers.printInfo:47: OS: Windows 8.1 6.3 (64-bit)
+[07:07:06] [INFO] MainHelpers.printInfo:48: Launcher Install Dir: M:\Minecraft stuff\FTB
+[07:07:06] [INFO] MainHelpers.printInfo:49: System memory: 5572M free, 8191M total
+[07:07:06] [ERROR] OutputOverride.write:45: From Console: Aug 13, 2015 7:07:06 AM java.util.prefs.WindowsPreferences <init>
+WARNING: Could not open/create prefs root node Software\JavaSoft\Prefs at root 0x80000002. Windows RegCreateKeyEx(...) returned error code 5.
+[07:07:09] [INFO] JavaFinder.parseJavaVersion:175: The FTB Launcher has found the following Java versions installed:
+[07:07:09] [INFO] JavaFinder.parseJavaVersion:177: Java Version: 1.7.0_71 sorted as: 1.7.0_71 64 Bit Java at : C:\Program Files\Java\jdk1.7.0_71\bin\java.exe
+[07:07:09] [INFO] JavaFinder.parseJavaVersion:177: Java Version: 1.8.0_25 sorted as: 1.8.0_25 64 Bit Java at : C:\Program Files\Java\jdk1.8.0_25\bin\java.exe
+[07:07:09] [INFO] JavaFinder.parseJavaVersion:177: Java Version: 1.8.0_45 sorted as: 1.8.0_45 64 Bit Java at : C:\Program Files\Java\jre1.8.0_45\bin\java.exe
+[07:07:09] [INFO] JavaFinder.parseJavaVersion:177: Java Version: 1.8.0_45 sorted as: 1.8.0_45 64 Bit Java at : C:\WINDOWS\system32\java.exe
+[07:07:09] [INFO] JavaFinder.parseJavaVersion:177: Java Version: 1.8.0_45 sorted as: 1.8.0_45 64 Bit Java at : C:\Program Files\Java\jre1.8.0_45\bin\java.exe
+[07:07:09] [INFO] JavaFinder.parseJavaVersion:204: Preferred: Java Version: 1.8.0_45 sorted as: 1.8.0_45 64 Bit Java at : C:\Program Files\Java\jre1.8.0_45\bin\java.exe
+[07:07:09] [DEBUG] OSUtils.getProxy:77: ProxySelector: type: DIRECT, no proxy for http://ftb.cursecdn.com
+[07:07:09] [DEBUG] OSUtils.getProxy:77: ProxySelector: type: DIRECT, no proxy for http://www.creeperrepo.net
+[07:07:09] [DEBUG] DownloadUtils.run:450: DownloadUtils.run() starting
+[07:07:10] [DEBUG] Benchmark.logBenchAs:73: Download Utils Balance (curse) took 711 ms.
+[07:07:10] [DEBUG] Benchmark.logBenchAs:73: Download Utils Balance took 833 ms.
+[07:07:10] [DEBUG] Benchmark.logBenchAs:73: Download Utils Curse edges.json took 907 ms.
+[07:07:10] [DEBUG] DownloadUtils.run:546: DL ready
+[07:07:10] [INFO] DownloadUtils.run:579: Using download server Automatic:CurseCDN on host ftb.cursecdn.com (198.41.209.101)
+[07:07:10] [DEBUG] Benchmark.logBenchAs:73: Download Utils Init took 921 ms.
+[07:07:11] [INFO] I18N.addFiles:97: [i18n] Fallback enUS loaded
+[07:07:11] [INFO] I18N.setLocale:120: [i18n] enUS English (US) language file loaded!
+[07:07:11] [INFO] LoadingDialog.advance:46: Checking installation location
+[07:07:14] [INFO] LoadingDialog.advance:46: Loading user data
+[07:07:14] [DEBUG] OSUtils.getMacAddress:412: Interface: Atheros AR8121/AR8113/AR8114 PCI-E Ethernet Controller : eth0
+[07:07:14] [DEBUG] Benchmark.logBenchAs:73: Modpack Loader http://ftb/Etho.xml took 682 ms.
+[07:07:14] [INFO] ModpackLoader$XmlHtmlRunnable.handleXML:103: Loading modpack information for Etho.xml...
+[07:07:14] [DEBUG] Benchmark.logBenchAs:73: Modpack Loader http://ftb/modpacks.xml took 704 ms.
+[07:07:14] [INFO] ModpackLoader$XmlHtmlRunnable.handleXML:103: Loading modpack information for modpacks.xml...
+[07:07:14] [DEBUG] Benchmark.logBenchAs:73: Modpack Loader http://ftb/thirdparty.xml took 739 ms.
+[07:07:14] [INFO] ModpackLoader$XmlHtmlRunnable.handleXML:103: Loading modpack information for thirdparty.xml...
+[07:07:18] [DEBUG] Benchmark.logBenchAs:73: All modpack lists loaded took 3990 ms.
+[07:07:18] [INFO] LoadingDialog.advance:46: Creating Console window
+[07:07:18] [INFO] MainHelpers.googleAnalytics:158: Reporting daily use
+[07:07:18] [INFO] LoadingDialog.advance:46: Creating main window
+[07:07:18] [DEBUG] AuthlibDLWorker.doInBackground:57: Loading Authlib...
+[07:07:20] [INFO] AuthlibDLWorker.downloadJars:136: Local Authlib Version is good, skipping Download
+[07:07:20] [INFO] AuthlibDLWorker.doInBackground:69: Adding Authlib to Classpath
+[07:07:20] [DEBUG] Benchmark.logBench:59: NewsUtils took 177 ms.
+[07:07:21] [DEBUG] Benchmark.logBenchAs:73: Authlib DL Worker Init took 3320 ms.
+[07:07:21] [INFO] OptionsPane.<init>:172: [i18n] Added 0 enUS to options pane
+[07:07:21] [INFO] OptionsPane.<init>:172: [i18n] Added 1 cyGB to options pane
+[07:07:21] [INFO] OptionsPane.<init>:172: [i18n] Added 2 daDK to options pane
+[07:07:21] [INFO] OptionsPane.<init>:172: [i18n] Added 3 deDE to options pane
+[07:07:21] [INFO] OptionsPane.<init>:172: [i18n] Added 4 enGB to options pane
+[07:07:21] [INFO] OptionsPane.<init>:172: [i18n] Added 5 enUS to options pane
+[07:07:21] [INFO] OptionsPane.<init>:172: [i18n] Added 6 esES to options pane
+[07:07:21] [INFO] OptionsPane.<init>:172: [i18n] Added 7 fiFI to options pane
+[07:07:21] [INFO] OptionsPane.<init>:172: [i18n] Added 8 frCA to options pane
+[07:07:21] [INFO] OptionsPane.<init>:172: [i18n] Added 9 frFR to options pane
+[07:07:21] [INFO] OptionsPane.<init>:172: [i18n] Added 10 itIT to options pane
+[07:07:21] [INFO] OptionsPane.<init>:172: [i18n] Added 11 maHU to options pane
+[07:07:21] [INFO] OptionsPane.<init>:172: [i18n] Added 12 nlNL to options pane
+[07:07:21] [INFO] OptionsPane.<init>:172: [i18n] Added 13 noNO to options pane
+[07:07:21] [INFO] OptionsPane.<init>:172: [i18n] Added 14 plPL to options pane
+[07:07:21] [INFO] OptionsPane.<init>:172: [i18n] Added 15 ptBR to options pane
+[07:07:21] [INFO] OptionsPane.<init>:172: [i18n] Added 16 ptPT to options pane
+[07:07:21] [INFO] OptionsPane.<init>:172: [i18n] Added 17 ruRU to options pane
+[07:07:21] [INFO] OptionsPane.<init>:172: [i18n] Added 18 svSE to options pane
+[07:07:21] [INFO] OptionsPane.<init>:172: [i18n] Added 19 zhCN to options pane
+[07:07:21] [INFO] I18N.setLocale:120: [i18n] enUS English (US) language file loaded!
+[07:07:22] [DEBUG] Benchmark.logBenchAs:73: UnreadNews Init took 162 ms.
+[07:07:22] [DEBUG] Benchmark.logBench:59: Waiting for main window took 4135 ms.
+[07:07:22] [INFO] MapLoader.run:43: loading map information...
+[07:07:22] [INFO] TexturePackLoader.run:43: loading texture pack information...
+[07:07:23] [DEBUG] Benchmark.logBenchAs:73: Texture Pack Load  took 796 ms.
+[07:07:23] [DEBUG] Benchmark.logBenchAs:73: Launcher Startup(maps or texturepacks loaded) took 18861 ms.
+[07:07:23] [INFO] LoadingDialog.advance:46: Setting up Launcher
+[07:07:23] [DEBUG] Benchmark.logBenchAs:73: MapLoader run  took 1487 ms.
+[07:07:23] [DEBUG] Benchmark.logBenchAs:73: Launcher Startup(maps and texturepacks loaded) took 19552 ms.
+[07:07:23] [DEBUG] UpdateChecker.<init>:71: Launcher Install path: G:\Games\FTB_Launcher.exe
+[07:07:23] [INFO] LoadingDialog.advance:46: Downloading pack data
+[07:07:24] [DEBUG] UpdateChecker.shouldUpdate:132: updater: buildjenk 344 < betajenk 341|| version 10408 < 10408
+[07:07:24] [DEBUG] UpdateChecker.shouldUpdate:133: latest = 10408
+[07:07:24] [INFO] LoadingDialog.advance:46: Opening main window
+[07:07:24] [DEBUG] Benchmark.logBenchAs:73: Launcher Startup(Modpacks loaded) took 20484 ms.
+[07:07:24] [DEBUG] LaunchFrame$14.run:451: Last used packs: FTBInfinity EthosLPPack
+[07:07:27] [DEBUG] Benchmark.logBenchAs:73: Launcher Startup(main window opened and ready to use) took 23062 ms.
+[07:07:46] [WARN] ChooseDir.actionPerformed:73: No Selection.
+[07:07:51] [INFO] LaunchFrame.doLogin:536: Logging in...
+[07:07:51] [DEBUG] OSUtils.getProxy:77: ProxySelector: type: DIRECT, no proxy for https://authserver.mojang.com/authenticate
+[07:07:51] [DEBUG] AuthlibHelper.authenticateWithAuthlib:67: Email address given
+[07:07:51] [INFO] AuthlibHelper.authenticateWithAuthlib:68: Beginning authlib authentication attempt
+[07:07:51] [INFO] AuthlibHelper.authenticateWithAuthlib:69: successfully created YggdrasilAuthenticationService
+[07:07:51] [DEBUG] AuthlibHelper.authenticateWithAuthlib:76: mojangData was passed to current method
+[07:07:51] [DEBUG] AuthlibHelper.authenticateWithAuthlib:79: Loading mojangData into authlib
+[07:07:52] [DEBUG] AuthlibHelper.authenticateWithAuthlib:148: Authentication is valid 
+[07:07:52] [DEBUG] AuthlibHelper.authenticateWithAuthlib:151: loggedIn() && CanPlayOnline()
+[07:07:52] [DEBUG] AuthlibHelper.authenticateWithAuthlib:155: Authentication done, returning LoginResponse
+[07:07:52] [DEBUG] Benchmark.logBenchAs:73: Login Worker Run took 358 ms.
+[07:07:52] [DEBUG] LaunchFrame$16.done:580: responseStr: good
+[07:07:52] [INFO] LaunchFrame$16.done:583: Login complete.
+[07:07:52] [DEBUG] User.writeObject:185: starting...
+[07:07:52] [DEBUG] LaunchFrame$16.done:587: user data saved
+[07:07:52] [DEBUG] LaunchFrame.runGameUpdater:634: ForceUpdate: false
+[07:07:52] [DEBUG] LaunchFrame.runGameUpdater:635: installPath: G:\Games\FTB
+[07:07:52] [DEBUG] LaunchFrame.runGameUpdater:636: pack dir: FTBInfinity
+[07:07:52] [DEBUG] LaunchFrame.runGameUpdater:637: pack check path: FTBInfinity\version
+[07:07:52] [DEBUG] LaunchFrame.checkVersion:612: verFile: 1.8.2 onlineVersion/getPackVer(): 1.8.2 onlineVersion/getVersion(): 1.8.2
+[07:07:52] [INFO] MCInstaller.gatherAssets:127: Checking local assets file, for MC version1.7.10 Please wait! 
+[07:07:52] [DEBUG] MCInstaller.gatherAssets:132: Checking pack libraries
+[07:07:52] [DEBUG] MCInstaller.gatherAssets:184: Checking minecraft version json
+[07:07:52] [DEBUG] MCInstaller.gatherAssets:199: checking minecraft libraries
+[07:07:52] [DEBUG] MCInstaller.gatherAssets:267: Checking minecraft assets
+[07:07:53] [DEBUG] MCInstaller.gatherAssets:281: Starting TaskHandler to check MC assets
+[07:07:56] [DEBUG] Benchmark.logBenchAs:73: parallel asset check took 3588 ms.
+[07:07:56] [INFO] MCInstaller.launchMinecraft:328: Setting up native libraries for FTB Infinity 1.7 v 1.8.2 MC 1.7.10
+[07:07:56] [DEBUG] MCInstaller.launchMinecraft:354: packbaseJSON 1.7.10
+[07:07:58] [INFO] MCLauncher.syncAssets:286: Syncing Assets:
+[07:07:58] [INFO] MCLauncher.launchMinecraft:86: Java Path: C:\Program Files\Java\jre1.8.0_45\bin\javaw.exe
+[07:07:58] [INFO] MCLauncher.launchMinecraft:87: Pack: FTB Infinity 1.7 1.7.10
+[07:07:58] [INFO] MCLauncher.setMemory:269: Setting MinMemory to 256
+[07:07:58] [INFO] MCLauncher.setMemory:271: Setting MaxMemory to 6656
+[07:07:58] [DEBUG] MCInstaller.launchMinecraft:428: MC PID: 7392
+[07:07:59] [DEBUG] Benchmark.logBenchAs:73: UnreadNews Init took 24 ms.
+[07:08:05] [WARN] GameUtils.killMC:37: MC Killed by the user!
+[07:08:05] [INFO] ProcessMonitor.run:43: MC process exited. return value: 1
+[07:08:05] [INFO] OptionsPane.<init>:172: [i18n] Added 0 enUS to options pane
+[07:08:05] [INFO] OptionsPane.<init>:172: [i18n] Added 1 cyGB to options pane
+[07:08:05] [INFO] OptionsPane.<init>:172: [i18n] Added 2 daDK to options pane
+[07:08:05] [INFO] OptionsPane.<init>:172: [i18n] Added 3 deDE to options pane
+[07:08:05] [INFO] OptionsPane.<init>:172: [i18n] Added 4 enGB to options pane
+[07:08:05] [INFO] OptionsPane.<init>:172: [i18n] Added 5 enUS to options pane
+[07:08:05] [INFO] OptionsPane.<init>:172: [i18n] Added 6 esES to options pane
+[07:08:05] [INFO] OptionsPane.<init>:172: [i18n] Added 7 fiFI to options pane
+[07:08:05] [INFO] OptionsPane.<init>:172: [i18n] Added 8 frCA to options pane
+[07:08:05] [INFO] OptionsPane.<init>:172: [i18n] Added 9 frFR to options pane
+[07:08:05] [INFO] OptionsPane.<init>:172: [i18n] Added 10 itIT to options pane
+[07:08:05] [INFO] OptionsPane.<init>:172: [i18n] Added 11 maHU to options pane
+[07:08:05] [INFO] OptionsPane.<init>:172: [i18n] Added 12 nlNL to options pane
+[07:08:05] [INFO] OptionsPane.<init>:172: [i18n] Added 13 noNO to options pane
+[07:08:05] [INFO] OptionsPane.<init>:172: [i18n] Added 14 plPL to options pane
+[07:08:05] [INFO] OptionsPane.<init>:172: [i18n] Added 15 ptBR to options pane
+[07:08:05] [INFO] OptionsPane.<init>:172: [i18n] Added 16 ptPT to options pane
+[07:08:05] [INFO] OptionsPane.<init>:172: [i18n] Added 17 ruRU to options pane
+[07:08:05] [INFO] OptionsPane.<init>:172: [i18n] Added 18 svSE to options pane
+[07:08:05] [INFO] OptionsPane.<init>:172: [i18n] Added 19 zhCN to options pane
+[07:08:05] [INFO] I18N.setLocale:120: [i18n] enUS English (US) language file loaded!
+[07:08:11] [INFO] LaunchFrame.doLogin:536: Logging in...
+[07:08:11] [DEBUG] OSUtils.getProxy:77: ProxySelector: type: DIRECT, no proxy for https://authserver.mojang.com/authenticate
+[07:08:11] [DEBUG] AuthlibHelper.authenticateWithAuthlib:67: Email address given
+[07:08:11] [INFO] AuthlibHelper.authenticateWithAuthlib:68: Beginning authlib authentication attempt
+[07:08:11] [INFO] AuthlibHelper.authenticateWithAuthlib:69: successfully created YggdrasilAuthenticationService
+[07:08:11] [DEBUG] AuthlibHelper.authenticateWithAuthlib:76: mojangData was passed to current method
+[07:08:11] [DEBUG] AuthlibHelper.authenticateWithAuthlib:79: Loading mojangData into authlib
+[07:08:11] [DEBUG] AuthlibHelper.authenticateWithAuthlib:148: Authentication is valid 
+[07:08:11] [DEBUG] AuthlibHelper.authenticateWithAuthlib:151: loggedIn() && CanPlayOnline()
+[07:08:11] [DEBUG] AuthlibHelper.authenticateWithAuthlib:155: Authentication done, returning LoginResponse
+[07:08:11] [DEBUG] Benchmark.logBenchAs:73: Login Worker Run took 137 ms.
+[07:08:11] [DEBUG] LaunchFrame$16.done:580: responseStr: good
+[07:08:11] [INFO] LaunchFrame$16.done:583: Login complete.
+[07:08:11] [DEBUG] User.writeObject:185: starting...
+[07:08:11] [DEBUG] LaunchFrame$16.done:587: user data saved
+[07:08:11] [DEBUG] LaunchFrame.runGameUpdater:634: ForceUpdate: false
+[07:08:11] [DEBUG] LaunchFrame.runGameUpdater:635: installPath: G:\Games\FTB
+[07:08:11] [DEBUG] LaunchFrame.runGameUpdater:636: pack dir: FTBInfinity
+[07:08:11] [DEBUG] LaunchFrame.runGameUpdater:637: pack check path: FTBInfinity\version
+[07:08:11] [DEBUG] LaunchFrame.checkVersion:612: verFile: 1.8.2 onlineVersion/getPackVer(): 1.8.2 onlineVersion/getVersion(): 1.8.2
+[07:08:11] [INFO] MCInstaller.gatherAssets:127: Checking local assets file, for MC version1.7.10 Please wait! 
+[07:08:11] [DEBUG] MCInstaller.gatherAssets:132: Checking pack libraries
+[07:08:11] [DEBUG] MCInstaller.gatherAssets:184: Checking minecraft version json
+[07:08:11] [DEBUG] MCInstaller.gatherAssets:199: checking minecraft libraries
+[07:08:11] [DEBUG] MCInstaller.gatherAssets:267: Checking minecraft assets
+[07:08:11] [DEBUG] MCInstaller.gatherAssets:281: Starting TaskHandler to check MC assets
+[07:08:12] [DEBUG] Benchmark.logBenchAs:73: parallel asset check took 536 ms.
+[07:08:12] [INFO] MCInstaller.launchMinecraft:328: Setting up native libraries for FTB Infinity 1.7 v 1.8.2 MC 1.7.10
+[07:08:12] [DEBUG] MCInstaller.launchMinecraft:354: packbaseJSON 1.7.10
+[07:08:13] [INFO] MCLauncher.syncAssets:286: Syncing Assets:
+[07:08:13] [INFO] MCLauncher.launchMinecraft:86: Java Path: C:\Program Files\Java\jre1.8.0_45\bin\javaw.exe
+[07:08:13] [INFO] MCLauncher.launchMinecraft:87: Pack: FTB Infinity 1.7 1.7.10
+[07:08:13] [INFO] MCLauncher.setMemory:269: Setting MinMemory to 256
+[07:08:13] [INFO] MCLauncher.setMemory:271: Setting MaxMemory to 6656
+[07:08:13] [DEBUG] MCInstaller.launchMinecraft:428: MC PID: 7524
+[07:08:15] [DEBUG] Benchmark.logBenchAs:73: UnreadNews Init took 6 ms.
+[07:21:19] [INFO] ProcessMonitor.run:43: MC process exited. return value: 0
+[07:21:19] [INFO] OptionsPane.<init>:172: [i18n] Added 0 enUS to options pane
+[07:21:19] [INFO] OptionsPane.<init>:172: [i18n] Added 1 cyGB to options pane
+[07:21:19] [INFO] OptionsPane.<init>:172: [i18n] Added 2 daDK to options pane
+[07:21:19] [INFO] OptionsPane.<init>:172: [i18n] Added 3 deDE to options pane
+[07:21:19] [INFO] OptionsPane.<init>:172: [i18n] Added 4 enGB to options pane
+[07:21:19] [INFO] OptionsPane.<init>:172: [i18n] Added 5 enUS to options pane
+[07:21:19] [INFO] OptionsPane.<init>:172: [i18n] Added 6 esES to options pane
+[07:21:19] [INFO] OptionsPane.<init>:172: [i18n] Added 7 fiFI to options pane
+[07:21:19] [INFO] OptionsPane.<init>:172: [i18n] Added 8 frCA to options pane
+[07:21:19] [INFO] OptionsPane.<init>:172: [i18n] Added 9 frFR to options pane
+[07:21:19] [INFO] OptionsPane.<init>:172: [i18n] Added 10 itIT to options pane
+[07:21:19] [INFO] OptionsPane.<init>:172: [i18n] Added 11 maHU to options pane
+[07:21:19] [INFO] OptionsPane.<init>:172: [i18n] Added 12 nlNL to options pane
+[07:21:19] [INFO] OptionsPane.<init>:172: [i18n] Added 13 noNO to options pane
+[07:21:19] [INFO] OptionsPane.<init>:172: [i18n] Added 14 plPL to options pane
+[07:21:19] [INFO] OptionsPane.<init>:172: [i18n] Added 15 ptBR to options pane
+[07:21:19] [INFO] OptionsPane.<init>:172: [i18n] Added 16 ptPT to options pane
+[07:21:19] [INFO] OptionsPane.<init>:172: [i18n] Added 17 ruRU to options pane
+[07:21:19] [INFO] OptionsPane.<init>:172: [i18n] Added 18 svSE to options pane
+[07:21:19] [INFO] OptionsPane.<init>:172: [i18n] Added 19 zhCN to options pane
+[07:21:19] [INFO] I18N.setLocale:120: [i18n] enUS English (US) language file loaded!
+[07:23:20] [INFO] LaunchFrame.doLogin:536: Logging in...
+[07:23:20] [DEBUG] OSUtils.getProxy:77: ProxySelector: type: DIRECT, no proxy for https://authserver.mojang.com/authenticate
+[07:23:20] [DEBUG] AuthlibHelper.authenticateWithAuthlib:67: Email address given
+[07:23:20] [INFO] AuthlibHelper.authenticateWithAuthlib:68: Beginning authlib authentication attempt
+[07:23:20] [INFO] AuthlibHelper.authenticateWithAuthlib:69: successfully created YggdrasilAuthenticationService
+[07:23:20] [DEBUG] AuthlibHelper.authenticateWithAuthlib:76: mojangData was passed to current method
+[07:23:20] [DEBUG] AuthlibHelper.authenticateWithAuthlib:79: Loading mojangData into authlib
+[07:23:20] [DEBUG] AuthlibHelper.authenticateWithAuthlib:148: Authentication is valid 
+[07:23:20] [DEBUG] AuthlibHelper.authenticateWithAuthlib:151: loggedIn() && CanPlayOnline()
+[07:23:20] [DEBUG] AuthlibHelper.authenticateWithAuthlib:155: Authentication done, returning LoginResponse
+[07:23:20] [DEBUG] Benchmark.logBenchAs:73: Login Worker Run took 177 ms.
+[07:23:21] [DEBUG] LaunchFrame$16.done:580: responseStr: good
+[07:23:21] [INFO] LaunchFrame$16.done:583: Login complete.
+[07:23:21] [DEBUG] User.writeObject:185: starting...
+[07:23:21] [DEBUG] LaunchFrame$16.done:587: user data saved
+[07:23:21] [DEBUG] LaunchFrame.runGameUpdater:634: ForceUpdate: false
+[07:23:21] [DEBUG] LaunchFrame.runGameUpdater:635: installPath: G:\Games\FTB
+[07:23:21] [DEBUG] LaunchFrame.runGameUpdater:636: pack dir: FTBInfinity
+[07:23:21] [DEBUG] LaunchFrame.runGameUpdater:637: pack check path: FTBInfinity\version
+[07:23:21] [DEBUG] LaunchFrame.checkVersion:612: verFile: 1.8.2 onlineVersion/getPackVer(): 1.8.2 onlineVersion/getVersion(): 1.8.2
+[07:23:21] [INFO] MCInstaller.gatherAssets:127: Checking local assets file, for MC version1.7.10 Please wait! 
+[07:23:21] [DEBUG] MCInstaller.gatherAssets:132: Checking pack libraries
+[07:23:21] [DEBUG] MCInstaller.gatherAssets:184: Checking minecraft version json
+[07:23:21] [DEBUG] MCInstaller.gatherAssets:199: checking minecraft libraries
+[07:23:21] [DEBUG] MCInstaller.gatherAssets:267: Checking minecraft assets
+[07:23:21] [DEBUG] MCInstaller.gatherAssets:281: Starting TaskHandler to check MC assets
+[07:23:24] [DEBUG] Benchmark.logBenchAs:73: parallel asset check took 3456 ms.
+[07:23:24] [INFO] MCInstaller.launchMinecraft:328: Setting up native libraries for FTB Infinity 1.7 v 1.8.2 MC 1.7.10
+[07:23:24] [DEBUG] MCInstaller.launchMinecraft:354: packbaseJSON 1.7.10
+[07:23:26] [INFO] MCLauncher.syncAssets:286: Syncing Assets:
+[07:23:26] [INFO] MCLauncher.launchMinecraft:86: Java Path: C:\Program Files\Java\jre1.8.0_45\bin\javaw.exe
+[07:23:26] [INFO] MCLauncher.launchMinecraft:87: Pack: FTB Infinity 1.7 1.7.10
+[07:23:26] [INFO] MCLauncher.setMemory:269: Setting MinMemory to 256
+[07:23:26] [INFO] MCLauncher.setMemory:271: Setting MaxMemory to 6656
+[07:23:26] [DEBUG] MCInstaller.launchMinecraft:428: MC PID: 3604
+[07:23:27] [DEBUG] Benchmark.logBenchAs:73: UnreadNews Init took 4 ms.
+[07:33:13] [INFO] ProcessMonitor.run:43: MC process exited. return value: 0
+[07:33:13] [INFO] OptionsPane.<init>:172: [i18n] Added 0 enUS to options pane
+[07:33:13] [INFO] OptionsPane.<init>:172: [i18n] Added 1 cyGB to options pane
+[07:33:13] [INFO] OptionsPane.<init>:172: [i18n] Added 2 daDK to options pane
+[07:33:13] [INFO] OptionsPane.<init>:172: [i18n] Added 3 deDE to options pane
+[07:33:13] [INFO] OptionsPane.<init>:172: [i18n] Added 4 enGB to options pane
+[07:33:13] [INFO] OptionsPane.<init>:172: [i18n] Added 5 enUS to options pane
+[07:33:13] [INFO] OptionsPane.<init>:172: [i18n] Added 6 esES to options pane
+[07:33:13] [INFO] OptionsPane.<init>:172: [i18n] Added 7 fiFI to options pane
+[07:33:13] [INFO] OptionsPane.<init>:172: [i18n] Added 8 frCA to options pane
+[07:33:13] [INFO] OptionsPane.<init>:172: [i18n] Added 9 frFR to options pane
+[07:33:13] [INFO] OptionsPane.<init>:172: [i18n] Added 10 itIT to options pane
+[07:33:13] [INFO] OptionsPane.<init>:172: [i18n] Added 11 maHU to options pane
+[07:33:13] [INFO] OptionsPane.<init>:172: [i18n] Added 12 nlNL to options pane
+[07:33:13] [INFO] OptionsPane.<init>:172: [i18n] Added 13 noNO to options pane
+[07:33:13] [INFO] OptionsPane.<init>:172: [i18n] Added 14 plPL to options pane
+[07:33:13] [INFO] OptionsPane.<init>:172: [i18n] Added 15 ptBR to options pane
+[07:33:13] [INFO] OptionsPane.<init>:172: [i18n] Added 16 ptPT to options pane
+[07:33:13] [INFO] OptionsPane.<init>:172: [i18n] Added 17 ruRU to options pane
+[07:33:13] [INFO] OptionsPane.<init>:172: [i18n] Added 18 svSE to options pane
+[07:33:13] [INFO] OptionsPane.<init>:172: [i18n] Added 19 zhCN to options pane
+[07:33:13] [INFO] I18N.setLocale:120: [i18n] enUS English (US) language file loaded!

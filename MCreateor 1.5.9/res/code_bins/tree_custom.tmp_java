@@ -1,0 +1,17 @@
+class Tree extends WorldGenerator
+{
+
+    public Tree()
+    {
+        super(false);
+    }
+
+    public boolean generate(World world, Random par2Random, int i, int j2, int k)
+    {
+		int j = world.getHeightValue(i,k)-1;
+
+		%generatecode%
+
+		return true;
+    }
+}

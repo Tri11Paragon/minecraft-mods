@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "axis=z": { "model": "TestEnvironmentMod:%name%_portal_ew" },
+        "axis=x": { "model": "TestEnvironmentMod:%name%_portal_ns" },
+		"inventory": { "model": "TestEnvironmentMod:%name%_portal_ns" }
+    }
+}

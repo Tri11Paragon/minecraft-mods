@@ -1,0 +1,73 @@
+static class Item%name% extends Item
+{
+
+                //harvest level
+                int harvest = %harvest%;
+
+    protected float efficiencyOnProperMaterial;
+
+    protected Item%name%()
+    {
+        efficiencyOnProperMaterial = %ucinkovitost%;
+        setMaxDamage(%uses%);
+        setMaxStackSize(1);
+        this.setCreativeTab(CreativeTabs.TOOLS);
+    }
+
+    public boolean canHarvestBlock(Block par1Block)
+    {
+	        return true;
+    }
+
+
+    /**
+     * Returns the strength of the stack against a given block. 1.0F base, (Quality+1)*2 if correct blocktype, 1.5F if
+     * sword
+     */
+    public float func_150893_a(ItemStack par1ItemStack, Block par2Block)
+    {
+                return efficiencyOnProperMaterial;
+    }
+
+    /**
+     * Current implementations of this method in child classes do not use the entry argument beside ev. They just raise
+     * the damage on the stack.
+     */
+    public boolean hitEntity(ItemStack par1ItemStack, EntityLivingBase par2EntityLiving, EntityLivingBase par3EntityLiving)
+    {
+        par1ItemStack.damageItem(1, par3EntityLiving);
+        return true;
+    }
+
+    public boolean onBlockDestroyed(ItemStack par1ItemStack, World par2World, Block par3, int par4, int par5, int par6, EntityLivingBase par7EntityLiving){
+		    par1ItemStack.damageItem(1, par7EntityLiving);
+		    return true;
+		}
+
+    /**
+     * Returns the damage against a given entity.
+     */
+    public int getDamageVsEntity(Entity par1Entity)
+    {
+        return %enemy%;
+    }
+
+    /**
+     * Returns True is the item is renderer in full 3D when hold.
+     */
+    public boolean isFull3D()
+    {
+        return true;
+    }
+
+    %txf%
+
+    /**
+     * Return the enchantability factor of the item, most of the time is based on material.
+     */
+    public int getItemEnchantability()
+    {
+		//kok se lohk cara
+        return %enta%;
+    }
+}

@@ -1,0 +1,1149 @@
+import net.minecraftforge.fml.client.*;
+import net.minecraftforge.fml.client.registry.*;
+import net.minecraftforge.fml.common.*;
+import net.minecraftforge.fml.common.asm.*;
+import net.minecraftforge.fml.common.asm.transformers.*;
+import net.minecraftforge.fml.common.discovery.*;
+import net.minecraftforge.fml.common.discovery.asm.*;
+import net.minecraftforge.fml.common.event.*;
+import net.minecraftforge.fml.common.functions.*;
+import net.minecraftforge.fml.common.network.*;
+import net.minecraftforge.fml.common.registry.*;
+import net.minecraftforge.fml.common.toposort.*;
+import net.minecraftforge.fml.common.versioning.*;
+import net.minecraftforge.fml.relauncher.*;
+import net.minecraftforge.fml.server.*;
+import net.minecraft.block.*;
+import net.minecraft.block.material.*;
+import net.minecraft.client.*;
+import net.minecraft.client.audio.*;
+import net.minecraft.client.entity.*;
+import net.minecraft.client.gui.*;
+import net.minecraft.client.gui.achievement.*;
+import net.minecraft.client.gui.inventory.*;
+import net.minecraft.client.model.*;
+import net.minecraft.client.multiplayer.*;
+import net.minecraft.client.particle.*;
+import net.minecraft.client.renderer.*;
+import net.minecraft.client.renderer.culling.*;
+import net.minecraft.client.renderer.entity.*;
+import net.minecraft.client.renderer.tileentity.*;
+import net.minecraft.client.settings.*;
+import net.minecraft.command.*;
+import net.minecraft.crash.*;
+import net.minecraft.creativetab.*;
+import net.minecraft.dispenser.*;
+import net.minecraft.enchantment.*;
+import net.minecraft.entity.*;
+import net.minecraft.entity.ai.*;
+import net.minecraft.entity.boss.*;
+import net.minecraft.entity.effect.*;
+import net.minecraft.entity.item.*;
+import net.minecraft.entity.monster.*;
+import net.minecraft.entity.passive.*;
+import net.minecraft.entity.player.*;
+import net.minecraft.entity.projectile.*;
+import net.minecraft.inventory.*;
+import net.minecraft.item.*;
+import net.minecraft.item.crafting.*;
+import net.minecraft.nbt.*;
+import net.minecraft.network.*;
+import net.minecraft.network.rcon.*;
+import net.minecraft.pathfinding.*;
+import net.minecraft.potion.*;
+import net.minecraft.profiler.*;
+import net.minecraft.server.*;
+import net.minecraft.server.dedicated.*;
+import net.minecraft.server.gui.*;
+import net.minecraft.server.integrated.*;
+import net.minecraft.server.management.*;
+
+import net.minecraft.stats.*;
+import net.minecraft.tileentity.*;
+import net.minecraft.util.*;
+import net.minecraft.village.*;
+import net.minecraft.world.*;
+import net.minecraft.world.biome.*;
+import net.minecraft.world.chunk.*;
+import net.minecraft.world.chunk.storage.*;
+import net.minecraft.world.demo.*;
+import net.minecraft.world.gen.*;
+import net.minecraft.world.gen.feature.*;
+import net.minecraft.world.gen.layer.*;
+import net.minecraft.world.gen.structure.*;
+import net.minecraft.world.storage.*;
+import net.minecraftforge.classloading.*;
+import net.minecraftforge.client.*;
+import net.minecraftforge.client.event.*;
+import net.minecraftforge.client.event.sound.*;
+import net.minecraftforge.common.*;
+import net.minecraftforge.event.*;
+import net.minecraftforge.event.entity.*;
+import net.minecraftforge.event.entity.item.*;
+import net.minecraftforge.event.entity.living.*;
+import net.minecraftforge.event.entity.minecart.*;
+import net.minecraftforge.event.entity.player.*;
+import net.minecraftforge.event.terraingen.*;
+import net.minecraftforge.event.world.*;
+import net.minecraftforge.oredict.*;
+
+import net.minecraft.init.*;
+import java.util.*;
+
+import java.util.List;
+import java.util.Random;
+import net.minecraft.block.Block;
+import net.minecraft.block.BlockFalling;
+import net.minecraft.entity.EnumCreatureType;
+import net.minecraft.init.Blocks;
+import net.minecraft.util.IProgressUpdate;
+import net.minecraft.world.World;
+import net.minecraft.world.WorldType;
+import net.minecraft.world.biome.Biome;
+import net.minecraft.world.chunk.Chunk;
+import net.minecraft.world.chunk.IChunkProvider;
+import net.minecraft.world.gen.feature.WorldGenDungeons;
+import net.minecraft.world.gen.feature.WorldGenLakes;
+import net.minecraft.world.gen.structure.MapGenMineshaft;
+import net.minecraft.world.gen.structure.MapGenScatteredFeature;
+import net.minecraft.world.gen.structure.MapGenStronghold;
+import net.minecraft.world.gen.structure.MapGenVillage;
+
+import static net.minecraftforge.event.terraingen.InitMapGenEvent.EventType.*;
+import net.minecraftforge.common.*;
+import net.minecraftforge.fml.common.eventhandler.Event.*;
+import net.minecraftforge.event.terraingen.*;
+
+import net.minecraft.client.renderer.block.model.*;
+
+import net.minecraft.block.state.pattern.*;
+
+import static net.minecraftforge.event.terraingen.InitMapGenEvent.EventType.*;
+import static net.minecraftforge.event.terraingen.PopulateChunkEvent.Populate.EventType.*;
+import static net.minecraftforge.event.terraingen.OreGenEvent.GenerateMinable.EventType.*;
+
+import net.minecraftforge.common.util.*;
+import net.minecraft.client.renderer.texture.*;
+
+import net.minecraft.block.state.*;
+
+import net.minecraft.block.properties.IProperty;
+import net.minecraft.block.properties.PropertyEnum;
+import net.minecraft.block.state.IBlockState;
+
+import net.minecraft.init.*;
+import java.util.Random;
+import net.minecraft.util.math.*;
+import net.minecraftforge.fml.common.registry.*;
+
+@SuppressWarnings("unchecked")
+public class mcreator_%name% {
+
+public static Object instance;
+public static int DIMID = %did%;
+
+public static BlockTutorialPortal portal;
+public static ModTrigger block;
+
+static{
+
+portal = (BlockTutorialPortal)(new BlockTutorialPortal().setUnlocalizedName("%name%_portal"));
+block = (ModTrigger)(new ModTrigger().setUnlocalizedName("%name%_trigger")/*.setTextureName("%texture-flint%")*/);
+//Item.itemRegistry.addObject(%iid%, "%name%_trigger", block);
+}
+
+public mcreator_%name%(){}
+
+public static DimensionType dtype = DimensionType.register("%name%", "_%name%", DIMID,mcreator_%name%.WorldProviderMod.class, false);
+
+public void load(FMLInitializationEvent event){
+GameRegistry.registerBlock(portal, "%name%_portal");
+GameRegistry.registerItem(block, "%name%_trigger");
+//DimensionManager.registerProviderType(DIMID, mcreator_%name%.WorldProviderMod.class, false);
+DimensionManager.registerDimension(DIMID, dtype);
+
+if(event.getSide() == Side.CLIENT)
+Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(block, 0, new ModelResourceLocation("TestEnvironmentMod:%name%_trigger", "inventory"));
+
+%load%
+}
+
+public void registerRenderers(){}
+public void generateNether(World world, Random random, int chunkX, int chunkZ){}
+public void generateSurface(World world, Random random, int chunkX, int chunkZ){}
+public int addFuel(ItemStack fuel){
+	return 0;
+}
+public void serverLoad(FMLServerStartingEvent event){}
+public void preInit(FMLPreInitializationEvent event){}
+
+public static class WorldProviderMod extends WorldProvider{
+
+	@Override
+    public void createBiomeProvider(){
+        this.biomeProvider = new BiomeProviderSingle(%biome%);
+        this.isHellWorld = true;
+        this.hasNoSky = true;
+        //this.dimensionId = DIMID;
+    }
+	
+	public DimensionType getDimensionType(){
+		return dtype;
+	}
+
+	@Override
+    @SideOnly(Side.CLIENT)
+	public Vec3d getFogColor(float par1, float par2){
+	    return new Vec3d(%kolor%);
+    }
+
+	@Override
+    public IChunkGenerator createChunkGenerator(){
+        return new ChunkProviderModded(this.worldObj, this.worldObj.getSeed()-%seeddata%);
+    }
+
+	@Override
+    public boolean isSurfaceWorld(){
+        return false;
+    }
+
+	@Override
+    public boolean canCoordinateBeSpawn(int par1, int par2){
+        return false;
+    }
+
+	@Override
+    public boolean canRespawnHere(){
+        return %resp%;
+    }
+
+    @SideOnly(Side.CLIENT)
+	@Override
+    public boolean doesXZShowFog(int par1, int par2){
+        return %fog%;
+    }
+
+    %worldData%
+
+}
+
+public static class TeleporterDimensionMod extends Teleporter {
+
+	private final WorldServer worldServerInstance;
+    /** A private Random() function in Teleporter */
+    private final Random random;
+    private final it.unimi.dsi.fastutil.longs.Long2ObjectMap<Teleporter.PortalPosition> destinationCoordinateCache = new it.unimi.dsi.fastutil.longs.Long2ObjectOpenHashMap(4096);
+    private static final String __OBFID = "CL_00000153";
+
+    public TeleporterDimensionMod(WorldServer worldIn)
+    {
+		super(worldIn);
+        this.worldServerInstance = worldIn;
+        this.random = new Random(worldIn.getSeed());
+    }
+
+    public void placeInPortal(Entity entityIn, float rotationYaw)
+    {
+        if (this.worldServerInstance.provider.getDimension() != 1)
+        {
+            if (!this.placeInExistingPortal(entityIn, rotationYaw))
+            {
+                this.makePortal(entityIn);
+                this.placeInExistingPortal(entityIn, rotationYaw);
+            }
+        }
+        else
+        {
+            int i = MathHelper.floor_double(entityIn.posX);
+            int j = MathHelper.floor_double(entityIn.posY) - 1;
+            int k = MathHelper.floor_double(entityIn.posZ);
+            byte b0 = 1;
+            byte b1 = 0;
+
+            for (int l = -2; l <= 2; ++l)
+            {
+                for (int i1 = -2; i1 <= 2; ++i1)
+                {
+                    for (int j1 = -1; j1 < 3; ++j1)
+                    {
+                        int k1 = i + i1 * b0 + l * b1;
+                        int l1 = j + j1;
+                        int i2 = k + i1 * b1 - l * b0;
+                        boolean flag = j1 < 0;
+                        this.worldServerInstance.setBlockState(new BlockPos(k1, l1, i2), flag ? %frame-b%.getDefaultState() : Blocks.AIR.getDefaultState());
+                    }
+                }
+            }
+
+            entityIn.setLocationAndAngles((double)i, (double)j, (double)k, entityIn.rotationYaw, 0.0F);
+            entityIn.motionX = entityIn.motionY = entityIn.motionZ = 0.0D;
+        }
+    }
+
+    public boolean placeInExistingPortal(Entity entityIn, float p_180620_2_)
+    {
+        boolean flag = true;
+        double d0 = -1.0D;
+        int i = MathHelper.floor_double(entityIn.posX);
+        int j = MathHelper.floor_double(entityIn.posZ);
+        boolean flag1 = true;
+        BlockPos object = BlockPos.ORIGIN;
+        long k = ChunkPos.chunkXZ2Int(i, j);
+
+        if (this.destinationCoordinateCache.containsKey(k))
+        {
+            Teleporter.PortalPosition portalposition = (Teleporter.PortalPosition)this.destinationCoordinateCache.get(k);
+            d0 = 0.0D;
+            object = portalposition;
+            portalposition.lastUpdateTime = this.worldServerInstance.getTotalWorldTime();
+            flag1 = false;
+        }
+        else
+        {
+            BlockPos blockpos4 = new BlockPos(entityIn);
+
+            for (int l = -128; l <= 128; ++l)
+            {
+                BlockPos blockpos1;
+
+                for (int i1 = -128; i1 <= 128; ++i1)
+                {
+                    for (BlockPos blockpos = blockpos4.add(l, this.worldServerInstance.getActualHeight() - 1 - blockpos4.getY(), i1); blockpos.getY() >= 0; blockpos = blockpos1)
+                    {
+                        blockpos1 = blockpos.down();
+
+                        if (this.worldServerInstance.getBlockState(blockpos).getBlock() == portal)
+                        {
+                            while (this.worldServerInstance.getBlockState(blockpos1 = blockpos.down()).getBlock() == portal)
+                            {
+                                blockpos = blockpos1;
+                            }
+
+                            double d1 = blockpos.distanceSq(blockpos4);
+
+                            if (d0 < 0.0D || d1 < d0)
+                            {
+                                d0 = d1;
+                                object = blockpos;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        if (d0 >= 0.0D)
+        {
+            if (flag1)
+            {
+				this.destinationCoordinateCache.put(k, new Teleporter.PortalPosition(object, this.worldServerInstance.getTotalWorldTime()));
+            }
+
+            double d4 = (double)((BlockPos)object).getX() + 0.5D;
+            double d5 = (double)((BlockPos)object).getY() + 0.5D;
+            double d6 = (double)((BlockPos)object).getZ() + 0.5D;
+            EnumFacing enumfacing = null;
+
+            if (this.worldServerInstance.getBlockState(((BlockPos)object).west()).getBlock() == portal)
+            {
+                enumfacing = EnumFacing.NORTH;
+            }
+
+            if (this.worldServerInstance.getBlockState(((BlockPos)object).east()).getBlock() == portal)
+            {
+                enumfacing = EnumFacing.SOUTH;
+            }
+
+            if (this.worldServerInstance.getBlockState(((BlockPos)object).north()).getBlock() == portal)
+            {
+                enumfacing = EnumFacing.EAST;
+            }
+
+            if (this.worldServerInstance.getBlockState(((BlockPos)object).south()).getBlock() == portal)
+            {
+                enumfacing = EnumFacing.WEST;
+            }
+
+			// func_181012_aH = getTeleportDirection
+			//EnumFacing enumfacing1 = EnumFacing.getHorizontal(entityIn.func_181012_aH());
+            EnumFacing enumfacing1 = entityIn.getTeleportDirection();
+
+            if (enumfacing != null)
+            {
+                EnumFacing enumfacing2 = enumfacing.rotateYCCW();
+                BlockPos blockpos2 = ((BlockPos)object).offset(enumfacing);
+                boolean flag2 = this.func_180265_a(blockpos2);
+                boolean flag3 = this.func_180265_a(blockpos2.offset(enumfacing2));
+
+                if (flag3 && flag2)
+                {
+                    object = ((BlockPos)object).offset(enumfacing2);
+                    enumfacing = enumfacing.getOpposite();
+                    enumfacing2 = enumfacing2.getOpposite();
+                    BlockPos blockpos3 = ((BlockPos)object).offset(enumfacing);
+                    flag2 = this.func_180265_a(blockpos3);
+                    flag3 = this.func_180265_a(blockpos3.offset(enumfacing2));
+                }
+
+                float f6 = 0.5F;
+                float f1 = 0.5F;
+
+                if (!flag3 && flag2)
+                {
+                    f6 = 1.0F;
+                }
+                else if (flag3 && !flag2)
+                {
+                    f6 = 0.0F;
+                }
+                else if (flag3)
+                {
+                    f1 = 0.0F;
+                }
+
+                d4 = (double)((BlockPos)object).getX() + 0.5D;
+                d5 = (double)((BlockPos)object).getY() + 0.5D;
+                d6 = (double)((BlockPos)object).getZ() + 0.5D;
+                d4 += (double)((float)enumfacing2.getFrontOffsetX() * f6 + (float)enumfacing.getFrontOffsetX() * f1);
+                d6 += (double)((float)enumfacing2.getFrontOffsetZ() * f6 + (float)enumfacing.getFrontOffsetZ() * f1);
+                float f2 = 0.0F;
+                float f3 = 0.0F;
+                float f4 = 0.0F;
+                float f5 = 0.0F;
+
+                if (enumfacing1 !=null && enumfacing == enumfacing1)
+                {
+                    f2 = 1.0F;
+                    f3 = 1.0F;
+                }
+                else if (enumfacing1 !=null && enumfacing == enumfacing1.getOpposite())
+                {
+                    f2 = -1.0F;
+                    f3 = -1.0F;
+                }
+                else if (enumfacing1 !=null && enumfacing == enumfacing1.rotateY())
+                {
+                    f4 = 1.0F;
+                    f5 = -1.0F;
+                }
+                else
+                {
+                    f4 = -1.0F;
+                    f5 = 1.0F;
+                }
+
+                double d2 = entityIn.motionX;
+                double d3 = entityIn.motionZ;
+                entityIn.motionX = d2 * (double)f2 + d3 * (double)f5;
+                entityIn.motionZ = d2 * (double)f4 + d3 * (double)f3;
+				if(enumfacing1!=null)
+					entityIn.rotationYaw = p_180620_2_ - (float)(enumfacing1.getHorizontalIndex() * 90) + (float)(enumfacing.getHorizontalIndex() * 90);
+            }
+            else
+            {
+                entityIn.motionX = entityIn.motionY = entityIn.motionZ = 0.0D;
+            }
+
+            entityIn.setLocationAndAngles(d4, d5, d6, entityIn.rotationYaw, entityIn.rotationPitch);
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
+    private boolean func_180265_a(BlockPos p_180265_1_)
+    {
+        return !this.worldServerInstance.isAirBlock(p_180265_1_) || !this.worldServerInstance.isAirBlock(p_180265_1_.up());
+    }
+
+    public boolean makePortal(Entity p_85188_1_)
+    {
+		
+        byte b0 = 16;
+        double d0 = -1.0D;
+        int i = MathHelper.floor_double(p_85188_1_.posX);
+        int j = MathHelper.floor_double(p_85188_1_.posY);
+        int k = MathHelper.floor_double(p_85188_1_.posZ);
+        int l = i;
+        int i1 = j;
+        int j1 = k;
+        int k1 = 0;
+        int l1 = this.random.nextInt(4);
+        int i2;
+        double d1;
+        int k2;
+        double d2;
+        int i3;
+        int j3;
+        int k3;
+        int l3;
+        int i4;
+        int j4;
+        int k4;
+        int l4;
+        int i5;
+        double d3;
+        double d4;
+
+        for (i2 = i - b0; i2 <= i + b0; ++i2)
+        {
+            d1 = (double)i2 + 0.5D - p_85188_1_.posX;
+
+            for (k2 = k - b0; k2 <= k + b0; ++k2)
+            {
+                d2 = (double)k2 + 0.5D - p_85188_1_.posZ;
+                label271:
+
+                for (i3 = this.worldServerInstance.getActualHeight() - 1; i3 >= 0; --i3)
+                {
+                    if (this.worldServerInstance.isAirBlock(new BlockPos(i2, i3, k2)))
+                    {
+                        while (i3 > 0 && this.worldServerInstance.isAirBlock(new BlockPos(i2, i3 - 1, k2)))
+                        {
+                            --i3;
+                        }
+
+                        for (j3 = l1; j3 < l1 + 4; ++j3)
+                        {
+                            k3 = j3 % 2;
+                            l3 = 1 - k3;
+
+                            if (j3 % 4 >= 2)
+                            {
+                                k3 = -k3;
+                                l3 = -l3;
+                            }
+
+                            for (i4 = 0; i4 < 3; ++i4)
+                            {
+                                for (j4 = 0; j4 < 4; ++j4)
+                                {
+                                    for (k4 = -1; k4 < 4; ++k4)
+                                    {
+                                        l4 = i2 + (j4 - 1) * k3 + i4 * l3;
+                                        i5 = i3 + k4;
+                                        int j5 = k2 + (j4 - 1) * l3 - i4 * k3;
+										Block tmp = this.worldServerInstance.getBlockState(new BlockPos(l4, i5, j5)).getBlock();
+                                        if (k4 < 0 && !tmp.getMaterial(tmp.getDefaultState()).isSolid() || k4 >= 0 && !this.worldServerInstance.isAirBlock(new BlockPos(l4, i5, j5)))
+                                        {
+                                            continue label271;
+                                        }
+                                    }
+                                }
+                            }
+
+                            d3 = (double)i3 + 0.5D - p_85188_1_.posY;
+                            d4 = d1 * d1 + d3 * d3 + d2 * d2;
+
+                            if (d0 < 0.0D || d4 < d0)
+                            {
+                                d0 = d4;
+                                l = i2;
+                                i1 = i3;
+                                j1 = k2;
+                                k1 = j3 % 4;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        if (d0 < 0.0D)
+        {
+            for (i2 = i - b0; i2 <= i + b0; ++i2)
+            {
+                d1 = (double)i2 + 0.5D - p_85188_1_.posX;
+
+                for (k2 = k - b0; k2 <= k + b0; ++k2)
+                {
+                    d2 = (double)k2 + 0.5D - p_85188_1_.posZ;
+                    label219:
+
+                    for (i3 = this.worldServerInstance.getActualHeight() - 1; i3 >= 0; --i3)
+                    {
+                        if (this.worldServerInstance.isAirBlock(new BlockPos(i2, i3, k2)))
+                        {
+                            while (i3 > 0 && this.worldServerInstance.isAirBlock(new BlockPos(i2, i3 - 1, k2)))
+                            {
+                                --i3;
+                            }
+
+                            for (j3 = l1; j3 < l1 + 2; ++j3)
+                            {
+                                k3 = j3 % 2;
+                                l3 = 1 - k3;
+
+                                for (i4 = 0; i4 < 4; ++i4)
+                                {
+                                    for (j4 = -1; j4 < 4; ++j4)
+                                    {
+                                        k4 = i2 + (i4 - 1) * k3;
+                                        l4 = i3 + j4;
+                                        i5 = k2 + (i4 - 1) * l3;
+										Block tmpb = this.worldServerInstance.getBlockState(new BlockPos(k4, l4, i5)).getBlock();
+                                        if (j4 < 0 && !tmpb.getMaterial(tmpb.getDefaultState()).isSolid() || j4 >= 0 && !this.worldServerInstance.isAirBlock(new BlockPos(k4, l4, i5)))
+                                        {
+                                            continue label219;
+                                        }
+                                    }
+                                }
+
+                                d3 = (double)i3 + 0.5D - p_85188_1_.posY;
+                                d4 = d1 * d1 + d3 * d3 + d2 * d2;
+
+                                if (d0 < 0.0D || d4 < d0)
+                                {
+                                    d0 = d4;
+                                    l = i2;
+                                    i1 = i3;
+                                    j1 = k2;
+                                    k1 = j3 % 2;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        int k5 = l;
+        int j2 = i1;
+        k2 = j1;
+        int l5 = k1 % 2;
+        int l2 = 1 - l5;
+
+        if (k1 % 4 >= 2)
+        {
+            l5 = -l5;
+            l2 = -l2;
+        }
+
+        if (d0 < 0.0D)
+        {
+            i1 = MathHelper.clamp_int(i1, 70, this.worldServerInstance.getActualHeight() - 10);
+            j2 = i1;
+
+            for (i3 = -1; i3 <= 1; ++i3)
+            {
+                for (j3 = 1; j3 < 3; ++j3)
+                {
+                    for (k3 = -1; k3 < 3; ++k3)
+                    {
+                        l3 = k5 + (j3 - 1) * l5 + i3 * l2;
+                        i4 = j2 + k3;
+                        j4 = k2 + (j3 - 1) * l2 - i3 * l5;
+                        boolean flag = k3 < 0;
+                        this.worldServerInstance.setBlockState(new BlockPos(l3, i4, j4), flag ? %frame-b%.getDefaultState() : Blocks.AIR.getDefaultState());
+                    }
+                }
+            }
+        }
+		
+        IBlockState iblockstate = portal.getDefaultState().withProperty(BlockPortal.AXIS, l5 == 0 ? EnumFacing.Axis.Z : EnumFacing.Axis.X);
+		
+		
+        for (j3 = 0; j3 < 4; ++j3)
+        {
+            for (k3 = 0; k3 < 4; ++k3)
+            {
+                for (l3 = -1; l3 < 4; ++l3)
+                {
+                    i4 = k5 + (k3 - 1) * l5;
+                    j4 = j2 + l3;
+                    k4 = k2 + (k3 - 1) * l2;
+                    boolean flag1 = k3 == 0 || k3 == 3 || l3 == -1 || l3 == 3;
+                    this.worldServerInstance.setBlockState(new BlockPos(i4, j4, k4), flag1 ? %frame-b%.getDefaultState() : iblockstate, 2);
+                }
+            }
+
+            for (k3 = 0; k3 < 4; ++k3)
+            {
+                for (l3 = -1; l3 < 4; ++l3)
+                {
+                    i4 = k5 + (k3 - 1) * l5;
+                    j4 = j2 + l3;
+                    k4 = k2 + (k3 - 1) * l2;
+                    this.worldServerInstance.notifyNeighborsOfStateChange(new BlockPos(i4, j4, k4), this.worldServerInstance.getBlockState(new BlockPos(i4, j4, k4)).getBlock());
+                }
+            }
+        }
+
+        return true;
+    }
+
+    /**
+     * called periodically to remove out-of-date portal locations from the cache list. Argument par1 is a
+     * WorldServer.getTotalWorldTime() value.
+     */
+    public void removeStalePortalLocations(long worldTime)
+    {
+        if (worldTime % 100L == 0L)
+        {
+            long i = worldTime - 300L;
+            it.unimi.dsi.fastutil.objects.ObjectIterator<Teleporter.PortalPosition> objectiterator = this.destinationCoordinateCache.values().iterator();
+
+            while (objectiterator.hasNext())
+            {
+                Teleporter.PortalPosition teleporter$portalposition = (Teleporter.PortalPosition)objectiterator.next();
+
+                if (teleporter$portalposition == null || teleporter$portalposition.lastUpdateTime < i)
+                {
+                    objectiterator.remove();
+                }
+            }
+        }
+    }
+
+    public class PortalPosition extends BlockPos
+    {
+        /** The worldtime at which this PortalPosition was last verified */
+        public long lastUpdateTime;
+        private static final String __OBFID = "CL_00000154";
+
+        public PortalPosition(BlockPos pos, long p_i45747_3_)
+        {
+            super(pos.getX(), pos.getY(), pos.getZ());
+            this.lastUpdateTime = p_i45747_3_;
+        }
+    }
+	
+}
+
+///FIRE BLOCK
+
+static class BlockFireMod extends Block{
+
+protected BlockFireMod(){
+        super(Material.GROUND);
+}
+
+public void onBlockAdded(World par1World, int par2, int par3, int par4){
+/*TutorialPortal.tryToCreatePortal(par1World, par2, par3, par4);*/
+}
+
+}//fire block end
+
+
+///PORTAL BLOCK
+
+public static class BlockTutorialPortal extends Block
+{
+
+public static final PropertyEnum<EnumFacing.Axis> AXIS = PropertyEnum.<EnumFacing.Axis>create("axis", EnumFacing.Axis.class, new EnumFacing.Axis[] {EnumFacing.Axis.X, EnumFacing.Axis.Z});
+protected static final AxisAlignedBB field_185683_b = new AxisAlignedBB(0.0D, 0.0D, 0.375D, 1.0D, 1.0D, 0.625D);
+protected static final AxisAlignedBB field_185684_c = new AxisAlignedBB(0.375D, 0.0D, 0.0D, 0.625D, 1.0D, 1.0D);
+protected static final AxisAlignedBB field_185685_d = new AxisAlignedBB(0.375D, 0.0D, 0.375D, 0.625D, 1.0D, 0.625D);
+
+public BlockTutorialPortal()
+{
+	super(Material.PORTAL);
+this.setDefaultState(this.blockState.getBaseState().withProperty(AXIS, EnumFacing.Axis.Z));
+this.setTickRandomly(true);
+this.setHardness(-1.0F);
+this.setLightLevel(0.75F);
+}
+
+    @javax.annotation.Nullable
+    public AxisAlignedBB getCollisionBoundingBox(IBlockState blockState, World worldIn, BlockPos pos)
+    {
+        return NULL_AABB;
+    }
+	
+	public boolean isOpaqueCube(IBlockState state)
+    {
+        return false;
+    }
+
+    public AxisAlignedBB getBoundingBox(IBlockState state, IBlockAccess source, BlockPos pos)
+    {
+        switch ((EnumFacing.Axis)state.getValue(AXIS))
+        {
+            case X:
+                return field_185683_b;
+            case Y:
+            default:
+                return field_185685_d;
+            case Z:
+                return field_185684_c;
+        }
+    }
+
+    public static int getMetaForAxis(EnumFacing.Axis axis)
+    {
+        return axis == EnumFacing.Axis.X ? 1 : (axis == EnumFacing.Axis.Z ? 2 : 0);
+    }
+
+    public boolean isFullCube(IBlockState state)
+    {
+        return false;
+    }
+	
+	 public int getMetaFromState(IBlockState state)
+    {
+        return getMetaForAxis((EnumFacing.Axis)state.getValue(AXIS));
+    }
+	
+	public IBlockState getStateFromMeta(int meta)
+    {
+        return this.getDefaultState().withProperty(AXIS, (meta & 3) == 2 ? EnumFacing.Axis.Z : EnumFacing.Axis.X);
+    }
+/**
+* If this block doesn't render as an ordinary block it will return False (examples: signs, buttons, stairs, etc)
+*/
+/**
+* Checks to see if this location is valid to create a portal and will return True if it does. Args: world, x, y, z
+*/
+public boolean tryToCreatePortal(World par1World, int par2, int par3, int par4)
+{
+byte b0 = 0;
+byte b1 = 0;
+if (getBlock(par1World,par2 - 1, par3, par4) == %frame-b% || getBlock(par1World,par2 + 1, par3, par4) == %frame-b%)
+{
+b0 = 1;
+}
+if (getBlock(par1World,par2, par3, par4 - 1) == %frame-b% || getBlock(par1World,par2, par3, par4 + 1) == %frame-b%)
+{
+b1 = 1;
+}
+if (b0 == b1)
+{
+return false;
+}
+else
+{
+if (getBlock(par1World,par2 - b0, par3, par4 - b1) == Blocks.AIR)
+{
+par2 -= b0;
+par4 -= b1;
+}
+int l;
+int i1;
+for (l = -1; l <= 2; ++l)
+{
+for (i1 = -1; i1 <= 3; ++i1)
+{
+         boolean flag = l == -1 || l == 2 || i1 == -1 || i1 == 3;
+         if (l != -1 && l != 2 || i1 != -1 && i1 != 3)
+         {
+         Block j1 = getBlock(par1World,par2 + b0 * l, par3 + i1, par4 + b1 * l);
+         if (flag)
+         {
+         if (j1 != %frame-b%)
+         {
+         return false;
+         }
+         }
+         /*else if (j1 != 0 && j1 != Main.TutorialFire.blockID)
+         {
+         return false;
+         }*/
+         }
+}
+}
+for (l = 0; l < 2; ++l)
+{
+for (i1 = 0; i1 < 3; ++i1)
+{
+		 IBlockState iblockstate = this.getDefaultState().withProperty(BlockPortal.AXIS, b0 == 0 ? EnumFacing.Axis.Z : EnumFacing.Axis.X);
+         par1World.setBlockState(new BlockPos(par2 + b0 * l, par3 + i1, par4 + b1 * l), iblockstate, 3);
+}
+}
+return true;
+}
+}
+/**
+* Lets the block know when one of its neighbor changes. Doesn't know which neighbor changed (coordinates passed are
+* their own) Args: x, y, z, neighbor blockID
+*/
+@Override
+public void neighborChanged(IBlockState state, World par1World, BlockPos pos, Block neighborBlock)
+{
+	
+int par2 = pos.getX();
+int par3 = pos.getY();
+int par4 = pos.getZ();
+	
+byte b0 = 0;
+byte b1 = 1;
+if (getBlock(par1World,par2 - 1, par3, par4) == this || getBlock(par1World,par2 + 1, par3, par4) == this)
+{
+b0 = 1;
+b1 = 0;
+}
+int i1;
+for (i1 = par3; getBlock(par1World,par2, i1 - 1, par4) == this; --i1)
+{
+;
+}
+if (getBlock(par1World,par2, i1 - 1, par4) != %frame-b%)
+{
+par1World.setBlockToAir(new BlockPos(par2, par3, par4));
+}
+else
+{
+int j1;
+for (j1 = 1; j1 < 4 && getBlock(par1World,par2, i1 + j1, par4) == this; ++j1)
+{
+;
+}
+if (j1 == 3 && getBlock(par1World,par2, i1 + j1, par4) == %frame-b%)
+{
+boolean flag = getBlock(par1World,par2 - 1, par3, par4) == this || getBlock(par1World,par2 + 1, par3, par4) == this;
+boolean flag1 = getBlock(par1World,par2, par3, par4 - 1) == this || getBlock(par1World,par2, par3, par4 + 1) == this;
+if (flag && flag1)
+{
+         par1World.setBlockToAir(new BlockPos(par2, par3, par4));
+}
+else
+{
+         if ((getBlock(par1World,par2 + b0, par3, par4 + b1) != %frame-b% || getBlock(par1World,par2 - b0, par3, par4 - b1) != this) && (getBlock(par1World,par2 - b0, par3, par4 - b1) != %frame-b% || getBlock(par1World,par2 + b0, par3, par4 + b1) != this))
+         {
+         par1World.setBlockToAir(new BlockPos(par2, par3, par4));
+         }
+}
+}
+else
+{
+par1World.setBlockToAir(new BlockPos(par2, par3, par4));
+}
+}
+}
+
+@SideOnly(Side.CLIENT)
+@Override
+    public boolean shouldSideBeRendered(IBlockState blockState, IBlockAccess worldIn, BlockPos pos, EnumFacing side)
+    {
+        EnumFacing.Axis axis = null;
+        IBlockState iblockstate = worldIn.getBlockState(pos);
+
+        if (worldIn.getBlockState(pos).getBlock() == this)
+        {
+            axis = (EnumFacing.Axis)iblockstate.getValue(AXIS);
+
+            if (axis == null)
+            {
+                return false;
+            }
+
+            if (axis == EnumFacing.Axis.Z && side != EnumFacing.EAST && side != EnumFacing.WEST)
+            {
+                return false;
+            }
+
+            if (axis == EnumFacing.Axis.X && side != EnumFacing.SOUTH && side != EnumFacing.NORTH)
+            {
+                return false;
+            }
+        }
+
+        boolean flag = worldIn.getBlockState(pos.west()).getBlock() == this && worldIn.getBlockState(pos.west(2)).getBlock() != this;
+        boolean flag1 = worldIn.getBlockState(pos.east()).getBlock() == this && worldIn.getBlockState(pos.east(2)).getBlock() != this;
+        boolean flag2 = worldIn.getBlockState(pos.north()).getBlock() == this && worldIn.getBlockState(pos.north(2)).getBlock() != this;
+        boolean flag3 = worldIn.getBlockState(pos.south()).getBlock() == this && worldIn.getBlockState(pos.south(2)).getBlock() != this;
+        boolean flag4 = flag || flag1 || axis == EnumFacing.Axis.X;
+        boolean flag5 = flag2 || flag3 || axis == EnumFacing.Axis.Z;
+        return flag4 && side == EnumFacing.WEST ? true : (flag4 && side == EnumFacing.EAST ? true : (flag5 && side == EnumFacing.NORTH ? true : flag5 && side == EnumFacing.SOUTH));
+    }
+	
+	 @SideOnly(Side.CLIENT)
+    public BlockRenderLayer getBlockLayer()
+    {
+        return BlockRenderLayer.TRANSLUCENT;
+    }
+	
+	  protected net.minecraft.block.state.BlockStateContainer createBlockState()
+    {
+		return new net.minecraft.block.state.BlockStateContainer(this, new IProperty[] {AXIS});
+    }
+
+//@SideOnly(Side.CLIENT)
+/**
+* Returns true if the given side of this block type should be rendered, if the adjacent block is at the given
+* coordinates. Args: blockAccess, x, y, z, side
+*/
+/*public boolean shouldSideBeRendered(IBlockAccess par1IBlockAccess, int par2, int par3, int par4, int par5)
+{
+if (getBlock(par1IBlockAccess,par2, par3, par4) == this)
+{
+return false;
+}
+else
+{
+boolean flag = getBlock(par1IBlockAccess,par2 - 1, par3, par4) == this && getBlock(par1IBlockAccess,par2 - 2, par3, par4) != this;
+boolean flag1 = getBlock(par1IBlockAccess,par2 + 1, par3, par4) == this && getBlock(par1IBlockAccess,par2 + 2, par3, par4) != this;
+boolean flag2 = getBlock(par1IBlockAccess,par2, par3, par4 - 1) == this && getBlock(par1IBlockAccess,par2, par3, par4 - 2) != this;
+boolean flag3 = getBlock(par1IBlockAccess,par2, par3, par4 + 1) == this && getBlock(par1IBlockAccess,par2, par3, par4 + 2) != this;
+boolean flag4 = flag || flag1;
+boolean flag5 = flag2 || flag3;
+return flag4 && par5 == 4 ? true : (flag4 && par5 == 5 ? true : (flag5 && par5 == 2 ? true : flag5 && par5 == 3));
+}
+}*/
+/**
+* Returns the quantity of items to drop on block destruction.
+*/
+public int quantityDropped(Random par1Random)
+{
+return 0;
+}
+/**
+* Triggered whenever an entity collides with this block (enters into the block). Args: world, x, y, z, entity
+*/
+@Override
+public void onEntityCollidedWithBlock(World par1World, BlockPos pos, IBlockState state, Entity par5Entity)
+{
+	
+	int par2 = pos.getX();
+int par3 = pos.getY();
+int par4 = pos.getZ();
+	
+	
+if (par5Entity.getRidingEntity() == null && !par5Entity.isBeingRidden() && par5Entity instanceof EntityPlayerMP){
+			 
+         EntityPlayerMP thePlayer = (EntityPlayerMP)par5Entity;
+         if (thePlayer.timeUntilPortal > 0)
+         {
+                 thePlayer.timeUntilPortal = 10;
+         }
+         else if (thePlayer.dimension != DIMID)
+         {
+                 thePlayer.timeUntilPortal = 10;
+                 thePlayer.mcServer.getPlayerList().transferPlayerToDimension(thePlayer, DIMID, new TeleporterDimensionMod(thePlayer.mcServer.worldServerForDimension(DIMID)));
+         }
+         else {
+                 thePlayer.timeUntilPortal = 10;
+                 thePlayer.mcServer.getPlayerList().transferPlayerToDimension(thePlayer, 0, new TeleporterDimensionMod(thePlayer.mcServer.worldServerForDimension(0)));
+         }
+         }
+}
+	
+@SideOnly(Side.CLIENT)
+/**
+* A randomly called display update to be able to add particles or other items for display
+*/
+@Override
+public void randomDisplayTick(IBlockState worldIn, World par1World, BlockPos pos, Random par5Random)
+{
+	
+int par2 = pos.getX();
+int par3 = pos.getY();
+int par4 = pos.getZ();
+	
+if (par5Random.nextInt(100) == 0)
+{
+par1World.playSound((double)pos.getX() + 0.5D, (double)pos.getY() + 0.5D, (double)pos.getZ() + 0.5D, (net.minecraft.util.SoundEvent)net.minecraft.util.SoundEvent.REGISTRY.getObject(new ResourceLocation(("%portals%"))), SoundCategory.BLOCKS, 0.5F, par5Random.nextFloat() * 0.4F + 0.8F, false);
+}
+for (int l = 0; l < 4; ++l)
+{
+double d0 = (double)((float)par2 + par5Random.nextFloat());
+double d1 = (double)((float)par3 + par5Random.nextFloat());
+double d2 = (double)((float)par4 + par5Random.nextFloat());
+double d3 = 0.0D;
+double d4 = 0.0D;
+double d5 = 0.0D;
+int i1 = par5Random.nextInt(2) * 2 - 1;
+d3 = ((double)par5Random.nextFloat() - 0.5D) * 0.5D;
+d4 = ((double)par5Random.nextFloat() - 0.5D) * 0.5D;
+d5 = ((double)par5Random.nextFloat() - 0.5D) * 0.5D;
+if (getBlock(par1World,par2 - 1, par3, par4) != this && getBlock(par1World,par2 + 1, par3, par4) != this)
+{
+d0 = (double)par2 + 0.5D + 0.25D * (double)i1;
+d3 = (double)(par5Random.nextFloat() * 2.0F * (float)i1);
+}
+else
+{
+d2 = (double)par4 + 0.5D + 0.25D * (double)i1;
+d5 = (double)(par5Random.nextFloat() * 2.0F * (float)i1);
+}
+par1World.spawnParticle(%portalp%, d0, d1, d2, d3, d4, d5);
+}
+}
+@SideOnly(Side.CLIENT)
+/**
+* only called by clickMiddleMouseButton , and passed to inventory.setCurrentItem (along with isCreative)
+*/
+public int idPicked(World par1World, int par2, int par3, int par4)
+{
+return 0;
+}
+}
+
+//portal block
+
+public static class ModTrigger extends Item
+{
+public ModTrigger()
+{
+super();
+this.maxStackSize = 1;
+setMaxDamage(64);
+setCreativeTab(CreativeTabs.TOOLS);
+}
+
+@Override
+public EnumActionResult onItemUse(ItemStack par1ItemStack, EntityPlayer par2EntityPlayer, World par3World, BlockPos pos, EnumHand hand, EnumFacing side, float par8, float par9, float par10)
+//public boolean onItemUse(ItemStack par1ItemStack, EntityPlayer par2EntityPlayer, World par3World, int par4, int par5, int par6, int par7, float par8, float par9, float par10)
+{
+	
+	int par4 = pos.getX();
+	int par5 = pos.getY();
+	int par6 = pos.getZ();
+	
+	int par7 = side.getIndex();
+	
+if (par7 == 0)
+{
+par5--;
+}
+if (par7 == 1)
+{
+par5++;
+}
+if (par7 == 2)
+{
+par6--;
+}
+if (par7 == 3)
+{
+par6++;
+}
+if (par7 == 4)
+{
+par4--;
+}
+if (par7 == 5)
+{
+par4++;
+}
+if (!par2EntityPlayer.canPlayerEdit(new BlockPos(par4, par5, par6), side, par1ItemStack))
+{
+return EnumActionResult.FAIL;
+}
+Block i1 = getBlock(par3World, par4, par5, par6);
+if (i1 == Blocks.AIR)
+{
+par3World.playSound(par2EntityPlayer, new BlockPos(par4, par5, par6), SoundEvents.ITEM_FLINTANDSTEEL_USE, SoundCategory.BLOCKS, 1.0F, itemRand.nextFloat() * 0.4F + 0.8F);
+portal.tryToCreatePortal(par3World, par4, par5, par6);
+}
+par1ItemStack.damageItem(1, par2EntityPlayer);
+return EnumActionResult.SUCCESS;
+}
+}
+
+%strucutreCodes%
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+%chunkprovider%
+
+//helpers
+public static Block getBlock(IBlockAccess world, int i, int j, int k){
+	return world.getBlockState(new BlockPos(i,j,k)).getBlock();
+}
+
+}

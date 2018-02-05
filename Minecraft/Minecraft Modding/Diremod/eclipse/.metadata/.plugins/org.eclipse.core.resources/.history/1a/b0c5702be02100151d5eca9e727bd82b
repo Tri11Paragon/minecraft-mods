@@ -1,0 +1,17 @@
+package com.brett.blocks;
+
+import cofh.api.energy.IEnergyStorage;
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.creativetab.CreativeTabs;
+
+public class test extends Block {
+
+	public test(Material p_i45394_1_) {
+		super(p_i45394_1_);
+		setBlockTextureName("top");
+		setCreativeTab(CreativeTabs.tabBlock);
+	}
+	
+	
+}

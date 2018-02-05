@@ -1,0 +1,88 @@
+package com.brett.power.generator;
+
+import java.util.Random;
+
+import com.brett.MainClass;
+import com.brett.power.Brett_Power;
+
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.texture.IIconRegister;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.util.IIcon;
+import net.minecraft.world.World;
+
+public class solarPannels extends Block{
+	
+	public static int PowerInBlock;
+	public static String img = "solar";
+	
+	public solarPannels(Material p_i45394_1_) {
+		super(p_i45394_1_);
+		setHardness(0.5f);
+		setResistance(0.5f);
+		setCreativeTab(CreativeTabs.tabBlock);
+	}
+	
+	public void randomDisplayTick(World world, int i, int j, int k, Random random){
+		EntityPlayer entity = Minecraft.getMinecraft().thePlayer;
+
+		if(true){
+			if(world.isDaytime()){
+		Brett_Power power = new Brett_Power(1000, 50, true);
+		
+		PowerInBlock = power.Power();
+		System.out.println(PowerInBlock);
+		if(PowerInBlock >= 100){
+			img="top";
+		}
+		}
+		}
+		}
+	
+	IIcon gor = null, dol = null, st1 = null, st2 = null, st3 = null, st4 = null;
+	
+	@SideOnly(Side.CLIENT)
+	@Override
+	public IIcon getIcon(int i, int par2){
+
+	if (i == 0)
+	return gor;
+
+	else if (i == 1)
+	return dol;
+
+	else if (i == 2)
+	return st1;
+
+	else if (i == 3)
+	return st2;
+
+	else if (i == 4)
+	return st4;
+
+	else if (i == 5)
+	return st3;
+
+	else
+	return gor;
+
+	}
+
+	@SideOnly(Side.CLIENT)
+	@Override
+	public void registerBlockIcons(IIconRegister reg){
+	this.gor = reg.registerIcon(MainClass.MODID + ":solar");
+	this.dol = reg.registerIcon(MainClass.MODID + ":top");
+	this.st1 = reg.registerIcon(MainClass.MODID + ":" + img);
+	this.st2 = reg.registerIcon(MainClass.MODID + ":solar");
+	this.st3 = reg.registerIcon(MainClass.MODID + ":solar");
+	this.st4 = reg.registerIcon(MainClass.MODID + ":solar");
+	}
+
+}

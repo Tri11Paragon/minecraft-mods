@@ -1,0 +1,150 @@
+#Slovenska razlièica MCreatorja
+#Avtor: Klemen Pevec
+
+#Glavni meni
+new=Nov mod
+mlist=Seznam mod-ov
+tools=Orodja
+help=Pomoc
+exit=Izhod
+
+license_l=MCreator 1.0 DEV for Minecraft 1.2.5, MCP62 and ModLoader 1.2.5.
+license_r=Copyright © 2012, Pylo - All rights reserved
+
+#Splošne fraze
+back=Nazaj
+next=Naprej
+yes=Da
+no=Ne
+ok=Vredu
+cancel=Preklièi
+confirm=Potrditev
+warn=Opozorilo
+done=Koncaj
+
+#Meni nov mod
+block=Block
+item=Item
+tool=Orodje/orozje
+armor=Obleke
+food=Hrana
+
+#MCP setup
+label1=Ciscenje starih podatkov
+label2=Kopiranje minecrafta v MCP
+label3=Dekompilacija
+label4=Ko se konzola zapre, kliknite na gumb Naprej
+label5=Priprava na uporabo
+label6=Minecraft nima namescen ModLoader
+label7=Namestite ModLoader in poizkusite znova
+label8=V mapi %appdata%/.minecraft ni minecrafta!
+label9=Namestite minecraft in poizkusite znova
+
+#MCreator cleanup
+clean=MCreator se bo zaprl. Ko ga boste ponovno zagnali, bo dokoncno resetiran
+sure3=<html>Ste prepricani resetirati MCreator?<br><b>Vsi podatki bodo izgubljeni!</b>
+
+#Seznam modov
+sure1=Ste prepricani, da želite izbrisati ta mod?
+sure2=Ste prepricani, da želite izbrisati vse mode?
+delete=Izbrisi
+pack=Zapakiraj
+delete_all=Izbrisi vse
+pack_all=Zapakiraj vse
+
+#NBT urejevalnik
+c_world=Izbira sveta
+s_world=Izberite svet za prilagajanje:
+save=Shrani
+
+#NewBlockGUI
+sb1=Pokazi kodo po kreiranju
+sb2=Zazeni v testnem okolju
+title1=<html> <font size=5><b>1. Korak</b></font> - <b>Ime in material
+title2=<html> <font size=5><b>2. Korak</b></font> - <b>Izbira texture
+title3=<html> <font size=5><b>3. Korak</b></font> - <b>Fizikalne lastnosti
+title4=<html> <font size=5><b>4. Korak</b></font> - <b>Dogodki
+title5=<html> <font size=5><b>5. Korak</b></font> - <b>Recept
+title6=<html> <font size=5><b>6. Korak</b></font> - <b>Kreiranje
+b_name=Ime blocka:
+b_material=Material:
+n_gui=Ime v GUI:
+n_hard=Trdota:
+n_res=Upornost:
+n_sound=Zvok hoje po njem:
+n_light=Svetilnost blocka:
+n_grav=Gravitacija:
+n_dest=Neunièljiv:
+n_drop=Kolièina izpuscenih reci:
+n_nodrop=Ne izpusti sebe?
+n_dropw=Block, ki ga izpusti:
+n_end=<html>Za ustvarjanje novega blocka kliknite na gumb "Konèaj". <br>Èe želite videti izvorno kodo ali testirati block v testnem okolju okljukajte okenca. <br>Block bo dodan na seznam ustvarjenih mod-ov.
+n_err1=Block mora imeti ime!
+n_err2=Block mora imeti na vseh straneh teksturo!
+n_err3=Block mora imeti ime v GUI!
+n_err4=Èe je izbrano, da block ne izpusti sebe, morate nastaviti kaj izpusti!
+genw=Generiraj v svetu
+am1=Pogostost na chuncke
+am2=Pogostost na doloèen chunck
+reci=Recepti
+gw=Generacija v svetu
+
+#NewFoodGUI
+h_title1=<html> <font size=5><b>1. Korak</b></font> - <b>Ime in kolièina
+h_title2=<html> <font size=5><b>2. Korak</b></font> - <b>Izbira texture
+h_title3=<html> <font size=5><b>4. Korak</b></font> - <b>Lastnosti
+h_title4=<html> <font size=5><b>3. Korak</b></font> - <b>Recept
+h_title5=<html> <font size=5><b>4. Korak</b></font> - <b>Kreiranje
+h_name=Ime itema:
+h_stack=Kolièina zbranih elementov
+h_food=Hranilna vrednost
+h_dog=Hrana za pse?
+h_potq=Uèinkuje kot napoj?
+h_pot=Vrsta napoja:
+h_pott=Èas trajanja napoja:
+h_potc=Verjetnost okuzbe (%):
+h_end=<html>Za ustvarjanje novega itema kliknite na gumb "Konèaj". <br>Èe želite videti izvorno kodo ali testirati item v testnem okolju okljukajte okenca. <br>Item bo dodan na seznam ustvarjenih mod-ov.
+h_err1=Item mora imeti ime!
+h_err2=Item nima imena v GUI!
+h_err3=Item mora imeti teksturo!
+
+#NewItemGUI
+u_title1=<html> <font size=5><b>1. Korak</b></font> - <b>Ime in lastnosti
+u_title2=<html> <font size=5><b>2. Korak</b></font> - <b>Izbira texture
+u_title3=<html> <font size=5><b>3. Korak</b></font> - <b>Recept
+u_title4=<html> <font size=5><b>4. Korak</b></font> - <b>Kreiranje
+u_err1=Item mora imeti ime in ime v GUI!
+
+#NewArmorGUI
+a_err1=Oblika nima nastavljenih vseh tekstur!
+a_err2=Obleka mora imeti ime, ime datoteke in osnovo za recept!
+rs1=Èelada
+rs2=Oklep
+rs3=Hlaèe
+rs4=Èevlji
+col1=Ime oblaèil:
+col2=Ime datotek za teksture:
+col3=Osnova za recept
+col4=Osnova za lastnosti
+
+#Texture selector
+f_name=Ime datoteke s sliko:
+
+#Orodja meni
+nbt=NBT urejevalnik
+client=Zazeni testno okolje
+recompile=Ponovno prevedi
+mcp=Odpri mcp mapo
+wiki=Odpri minecraft wiki
+reset_mc=Resetiraj program
+to_zip=Dodaj datoteke v minecraft.jar
+to_zip2=Dodaj datoteke v minecraft.jar/armor
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods>
+
+
+<mod>
+
+	<name>
+		Dad
+	</name>
+
+	<type>
+		Block
+	</type>
+
+	<description>
+		Block is basic unit in minecraft. It is 3D object that can be placed and used to build.
+	</description>
+
+</mod>
+
+
+<mod>
+
+	<name>
+		Sadasd
+	</name>
+
+	<type>
+		Item
+	</type>
+
+	<description>
+		Item is object that can be hold in the hand. You can use it. It has damage.
+	</description>
+
+</mod>
+
+
+<mod>
+
+	<name>
+		TEst
+	</name>
+
+	<type>
+		Gun
+	</type>
+
+	<description>
+		Gun is item that shoots entities that act like arrows. This is some kind of weapon.
+	</description>
+
+</mod>
+
+
+<mod>
+
+	<name>
+		Tests
+	</name>
+
+	<type>
+		Fluid
+	</type>
+
+	<description>
+		Fluid is special block that can act as fluid. It will spread accros the world.
+	</description>
+
+</mod>
+
+
+<mod>
+
+	<name>
+		BLOCKBREAKER
+	</name>
+
+	<type>
+		Block
+	</type>
+
+	<description>
+		Block is basic unit in minecraft. It is 3D object that can be placed and used to build.
+	</description>
+
+</mod>
+
+
+</mods>

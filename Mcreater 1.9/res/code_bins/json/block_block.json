@@ -1,0 +1,7 @@
+{
+    "parent": "block/%model%",
+    "textures": {
+        "%txname%": "blocks/%texture%",
+		"particle": "blocks/%texture%"
+    }
+}

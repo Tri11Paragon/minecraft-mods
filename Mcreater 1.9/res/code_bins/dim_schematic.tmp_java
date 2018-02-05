@@ -1,0 +1,19 @@
+public static class WorldGen%name% extends WorldGenerator
+{
+
+    public WorldGen%name%(){
+
+    }
+
+	public boolean generate(World world, Random random, BlockPos pos)
+    {
+
+		int i2 = pos.getX();
+		int k2 = pos.getZ();
+	
+		%structure%
+
+		return true;
+    }
+
+}

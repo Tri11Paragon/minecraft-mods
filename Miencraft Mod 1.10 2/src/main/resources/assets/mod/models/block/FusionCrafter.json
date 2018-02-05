@@ -1,0 +1,9 @@
+{
+    "parent": "block/orientable",
+    "textures": 
+    {
+        "top": "mod:blocks/deconstructor_top",
+        "front": "mod:blocks/deconstructor_front",
+        "side": "mod:blocks/deconstructor_side"
+    }
+}

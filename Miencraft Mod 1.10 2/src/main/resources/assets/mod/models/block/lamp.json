@@ -1,0 +1,50 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
+    "textures": {
+        "0": "mod:blocks/cauldron_side",
+        "1": "mod:blocks/diamond_block",
+        "2": "mod:blocks/glowstone",
+        "3": "mod:blocks/stone"
+    },
+    "elements": [
+        {
+            "name": "Cube",
+            "from": [ 0.0, 0.0, 0.0 ], 
+            "to": [ 16.0, 2.0, 16.0 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 2.0 ] },
+                "east": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 2.0 ] },
+                "south": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 2.0 ] },
+                "west": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 2.0 ] },
+                "up": { "texture": "#1", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "down": { "texture": "#1", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 6.0, 2.0, 6.0 ], 
+            "to": [ 10.0, 10.0, 10.0 ], 
+            "faces": {
+                "north": { "texture": "#2", "uv": [ 0.0, 0.0, 4.0, 8.0 ] },
+                "east": { "texture": "#2", "uv": [ 0.0, 0.0, 4.0, 8.0 ] },
+                "south": { "texture": "#2", "uv": [ 0.0, 0.0, 4.0, 8.0 ] },
+                "west": { "texture": "#2", "uv": [ 0.0, 0.0, 4.0, 8.0 ] },
+                "up": { "texture": "#3", "uv": [ 0.0, 0.0, 4.0, 4.0 ] },
+                "down": { "texture": "#3", "uv": [ 0.0, 0.0, 4.0, 4.0 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 3.0, 10.0, 3.0 ], 
+            "to": [ 13.0, 12.0, 13.0 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 0.0, 0.0, 10.0, 2.0 ] },
+                "east": { "texture": "#0", "uv": [ 0.0, 0.0, 10.0, 2.0 ] },
+                "south": { "texture": "#0", "uv": [ 0.0, 0.0, 10.0, 2.0 ] },
+                "west": { "texture": "#0", "uv": [ 0.0, 0.0, 10.0, 2.0 ] },
+                "up": { "texture": "#3", "uv": [ 0.0, 0.0, 10.0, 10.0 ] },
+                "down": { "texture": "#3", "uv": [ 0.0, 0.0, 10.0, 10.0 ] }
+            }
+        }
+    ]
+}

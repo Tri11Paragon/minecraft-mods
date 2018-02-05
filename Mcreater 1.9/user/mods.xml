@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods>
+
+
+<mod>
+
+	<name>
+		WADAWDAWD
+	</name>
+
+	<type>
+		Cloath
+	</type>
+
+	<description>
+		Armor is item that can be dressed up and gives you protection.
+	</description>
+
+</mod>
+
+
+<mod>
+
+	<name>
+		BLOCK
+	</name>
+
+	<type>
+		Block
+	</type>
+
+	<description>
+		Block is basic unit in minecraft. It is 3D object that can be placed in world.
+	</description>
+
+</mod>
+
+
+</mods>

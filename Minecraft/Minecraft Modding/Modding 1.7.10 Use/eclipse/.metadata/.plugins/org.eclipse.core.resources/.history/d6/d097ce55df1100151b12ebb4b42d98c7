@@ -1,0 +1,5 @@
+package com.brett.direop.guns;
+
+public class EntityBullet {
+
+}

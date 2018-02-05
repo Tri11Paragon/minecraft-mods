@@ -1,0 +1,45 @@
+[08:43:58] [main/INFO]: Setting user: Player584
+[08:43:59] [Client thread/INFO]: LWJGL Version: 2.9.1
+[08:44:08] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:diremod
+[08:44:12] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[08:44:12] [Sound Library Loader/INFO]: Sound engine started
+[08:44:12] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[08:44:12] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:diremod
+[08:44:13] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[08:44:13] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[08:44:14] [Sound Library Loader/INFO]: Sound engine started
+[08:44:14] [Client thread/ERROR]: ########## GL ERROR ##########
+[08:44:14] [Client thread/ERROR]: @ Post startup
+[08:44:14] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[08:44:33] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[08:44:33] [Server thread/INFO]: Generating keypair
+[08:44:34] [Server thread/INFO]: Preparing start region for level 0
+[08:44:35] [Server thread/INFO]: Preparing spawn area: 20%
+[08:44:37] [Server thread/INFO]: Changing view distance to 4, from 10
+[08:44:37] [Server thread/INFO]: Player584[local:E:d366cf9a] logged in with entity id 407 at (142.9091468983888, 65.0, 257.7262725400218)
+[08:44:37] [Server thread/INFO]: Player584 joined the game
+[08:44:41] [Server thread/INFO]: Saving and pausing game...
+[08:44:42] [Server thread/INFO]: Saving chunks for level 'Hello'/Overworld
+[08:44:42] [Server thread/INFO]: Saving chunks for level 'Hello'/Nether
+[08:44:42] [Server thread/INFO]: Saving chunks for level 'Hello'/The End
+[08:44:50] [Server thread/INFO]: [Player584: Set own game mode to Survival Mode]
+[08:44:50] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[08:44:52] [Server thread/INFO]: [Player584: Set own game mode to Creative Mode]
+[08:44:52] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[08:44:53] [Server thread/INFO]: Saving and pausing game...
+[08:44:53] [Server thread/INFO]: Saving chunks for level 'Hello'/Overworld
+[08:44:53] [Server thread/INFO]: Saving chunks for level 'Hello'/Nether
+[08:44:53] [Server thread/INFO]: Saving chunks for level 'Hello'/The End
+[08:44:58] [Server thread/INFO]: Player584 has just earned the achievement [Taking Inventory]
+[08:44:58] [Client thread/INFO]: [CHAT] Player584 has just earned the achievement [Taking Inventory]
+[08:45:20] [Server thread/INFO]: [Player584: Set own game mode to Survival Mode]
+[08:45:20] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[08:45:30] [Server thread/INFO]: [Player584: Set own game mode to Creative Mode]
+[08:45:30] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[08:45:32] [Client thread/INFO]: Stopping!
+[08:45:32] [Server thread/INFO]: Stopping server
+[08:45:32] [Server thread/INFO]: Saving players
+[08:45:32] [Server thread/INFO]: Saving worlds
+[08:45:32] [Server thread/INFO]: Saving chunks for level 'Hello'/Overworld
+[08:45:32] [Server thread/INFO]: Saving chunks for level 'Hello'/Nether
+[08:45:32] [Server thread/INFO]: Saving chunks for level 'Hello'/The End

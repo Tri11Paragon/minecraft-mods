@@ -1,0 +1,56 @@
+tile.SolarFluxOre.name=Solar Flux Ore
+tile.CopperOre.name=Copper Ore
+tile.TinOre.name=Tin Ore
+tile.LeadOre.name=Lead Ore
+tile.lamp.name=Lamp
+tile.Infuser.name=Infuser
+tile.kaboom.name=TransDimensional-Quantum-Explosive
+tile.bigKaboom.name=The Nadion Thruster That Sends The Quantum Deuterium Into a TransDimensional-Quantum-Explosive
+tile.crackedBedrock.name=Cracked Bedrock
+tile.Tester.name=Dick Butt's Magic Iron Miner
+tile.blockInfuser.name=Basicly Alloy Smelter
+tile.blockQuantumChest.name=Quantum Chest
+
+item.CreativeBow.name=Automatic Arrow Casting Device
+
+item.copperWire.name=Copper Wire
+item.gear.name=Gear
+item.inductionCoil.name=Induction Coil
+item.itemCore.name=Basic Quantum Core
+item.machineFrame.name=Basic Machine Frame
+item.redstoneCoil.name=Restone Coil
+item.redstoneCore.name=Redstone Power Core
+item.restonecircuit.name=Redstone Circuit
+item.dragonEnergyCore.name=Dragon Energy Core
+item.netherEnergyCore.name=Nether Energy Core
+item.advancedQuantumCore.name=Advanced Quantum Core
+item.quantumCore.name=Quantum Core
+
+item.tritaniumAlloy.name=Tritanium Alloy 
+item.copperIngot.name=Copper Ingot
+item.steelIngot.name=Steel Ingot
+item.solarIngot.name=Solar Ingot
+item.leadIngot.name=Lead Ingot
+item.bronzeIngot.name=Bronze Ingot
+item.tinIngot.name=Tin Ingot
+item.bedrockIngot.name=Bedrock Ingot
+
+item.tritaniumIngot.name=Hardened Tritanium Ingot
+
+item.solarFluxHelmet.name=Solar Flux Helmet
+item.solarFluxChestplate.name=Solar Flux Chestplate
+item.solarFluxLeggings.name=Solar Flux Leggings
+item.solarFluxBoots.name=Solar Flux Boots
+
+item.QuantumPickaxe.name=Quantum Pickaxe
+item.QuantumAxe.name=Quantum Axe
+item.QuantumShovel.name=Quantum Shovel
+item.QuantumSword.name=Quantum Sword
+
+item.AdvancedQuantumPickaxe.name=Advanced Quantum Pickaxe
+item.AdvancedQuantumAxe.name=Advanced Quantum Axe
+item.AdvancedQuantumShovel.name=Advanced Quantum Shovel
+item.AdvancedQuantumSword.name=Advanced Quantum Sword
+
+container.infuser=Infuser
+container.chest=Chest

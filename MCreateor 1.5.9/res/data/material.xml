@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<materials>
+
+	<material>
+		<type>ground</type>
+	</material>
+
+	<material>
+		<type>air</type>
+	</material>
+	
+	<material>
+		<type>grass</type>
+	</material>
+	
+	<material>
+		<type>wood</type>
+	</material>
+	
+	<material>
+		<type>rock</type>
+	</material>
+	
+	<material>
+		<type>iron</type>
+	</material>
+	
+	<material>
+		<type>water</type>
+	</material>
+	
+	<material>
+		<type>lava</type>
+	</material>
+	
+	<material>
+		<type>plants</type>
+	</material>
+	
+	<material>
+		<type>vine</type>
+	</material>
+	
+	<material>
+		<type>sponge</type>
+	</material>
+	
+	<material>
+		<type>cloth</type>
+	</material>
+	
+	<material>
+		<type>fire</type>
+	</material>
+	
+	<material>
+		<type>sand</type>
+	</material>
+	
+	<material>
+		<type>circuits</type>
+	</material>
+	
+	<material>
+		<type>glass</type>
+	</material>
+	
+	<material>
+		<type>redstoneLight</type>
+	</material>
+	
+	<material>
+		<type>tnt</type>
+	</material>
+	
+	<material>
+		<type>unused</type>
+	</material>
+	
+	<material>
+		<type>ice</type>
+	</material>
+	
+	<material>
+		<type>snow</type>
+	</material>
+	
+	<material>
+		<type>craftedSnow</type>
+	</material>
+	
+	<material>
+		<type>cactus</type>
+	</material>
+	
+	<material>
+		<type>clay</type>
+	</material>
+	
+	<material>
+		<type>pumpkin</type>
+	</material>
+	
+	<material>
+		<type>dragonEgg</type>
+	</material>
+	
+	<material>
+		<type>portal</type>
+	</material>
+	
+	<material>
+		<type>cake</type>
+	</material>
+	
+	<material>
+		<type>web</type>
+	</material>
+	
+	<material>
+		<type>piston</type>
+	</material>
+
+</materials>

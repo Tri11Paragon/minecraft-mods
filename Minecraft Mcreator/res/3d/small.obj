@@ -1,0 +1,10 @@
+# Blender3D v249 OBJ File: 
+# www.blender3d.org
+mtllib small.mtl
+v 0.447867 -0.225304 -0.216598
+v 0.447867 -0.225304 0.297644
+v -0.066375 -0.225304 0.297644
+v -0.066375 -0.225304 -0.216598
+usemtl (null)
+s off
+f 1 4 3 2

@@ -1,0 +1,36 @@
+World par1World = world;
+		int par2 = i;
+		int par3 = j;
+		int par4 = k;
+		Random par5Random = random;
+		if(%condition%)
+    for (int la = 0; la < %amount%; ++la)
+	        {
+	            int l = par1World.getBlockMetadata(par2, par3, par4);
+	            double d0 = (double)((float)par2 + 0.5F) + (double)(par5Random.nextFloat() - 0.5F) * %radious%D;
+	            double d1 = ((double)((float)par3 + 0.7F) + (double)(par5Random.nextFloat() - 0.5F) * %radious%D)+0.5D;
+	            double d2 = (double)((float)par4 + 0.5F) + (double)(par5Random.nextFloat() - 0.5F) * %radious%D;
+	            double d3 = 0.2199999988079071D;
+	            double d4 = 0.27000001072883606D;
+
+	            if (l == 1)
+	            {
+	                par1World.spawnParticle("%particle%", d0 - d4, d1 + d3, d2, 0.0D, 0.0D, 0.0D);
+	            }
+	            else if (l == 2)
+	            {
+	                par1World.spawnParticle("%particle%", d0 + d4, d1 + d3, d2, 0.0D, 0.0D, 0.0D);
+	            }
+	            else if (l == 3)
+	            {
+	                par1World.spawnParticle("%particle%", d0, d1 + d3, d2 - d4, 0.0D, 0.0D, 0.0D);
+	            }
+	            else if (l == 4)
+	            {
+	                par1World.spawnParticle("%particle%", d0, d1 + d3, d2 + d4, 0.0D, 0.0D, 0.0D);
+	            }
+	            else
+	            {
+	                par1World.spawnParticle("%particle%", d0, d1, d2, 0.0D, 0.0D, 0.0D);
+	            }
+        }

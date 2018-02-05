@@ -1,0 +1,6 @@
+{ 
+	"parent":"mod:block/SolarCollector",
+	"textures":{
+		"all": "mod:blocks/SolarCollector"
+	}
+}

@@ -1,0 +1,60 @@
+[10:00:16] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
+[10:00:16] [Client thread/INFO] [JourneyMap] ensureCurrent ENTER
+[10:00:16] [Client thread/ERROR] [JMLogger] Default theme not found in M:\Minecraft stuff\FTB\FTBInfinity\minecraft\journeymap\icon\theme\Victorian\Victorian.theme.json: Victorian (SUPPRESSED)
+[10:00:17] [Client thread/TRACE] [ThemeFileHandler] Initializing themes ...
+[10:00:17] [Client thread/INFO] [PropertiesBase] Creating config file: M:\Minecraft stuff\FTB\FTBInfinity\minecraft\journeymap\config\5.1\journeymap.core.config
+[10:00:17] [Client thread/DEBUG] [PropertiesBase] Saved journeymap.core.config
+[10:00:17] [Client thread/INFO] [PropertiesBase] Loaded CoreProperties from M:\Minecraft stuff\FTB\FTBInfinity\minecraft\journeymap\config\5.1\journeymap.core.config
+[10:00:17] [Client thread/INFO] [PropertiesBase] Creating config file: M:\Minecraft stuff\FTB\FTBInfinity\minecraft\journeymap\config\5.1\journeymap.fullmap.config
+[10:00:17] [Client thread/DEBUG] [PropertiesBase] Saved journeymap.fullmap.config
+[10:00:17] [Client thread/INFO] [PropertiesBase] Loaded FullMapProperties from M:\Minecraft stuff\FTB\FTBInfinity\minecraft\journeymap\config\5.1\journeymap.fullmap.config
+[10:00:18] [Client thread/INFO] [PropertiesBase] Creating config file: M:\Minecraft stuff\FTB\FTBInfinity\minecraft\journeymap\config\5.1\journeymap.minimap.config
+[10:00:18] [Client thread/DEBUG] [PropertiesBase] Saved journeymap.minimap.config
+[10:00:18] [Client thread/INFO] [PropertiesBase] Updating config file from version "null" to "5.1.0": M:\Minecraft stuff\FTB\FTBInfinity\minecraft\journeymap\config\5.1\journeymap.minimap.config
+[10:00:18] [Client thread/DEBUG] [PropertiesBase] Saved journeymap.minimap.config
+[10:00:18] [Client thread/INFO] [PropertiesBase] Loaded MiniMapProperties from M:\Minecraft stuff\FTB\FTBInfinity\minecraft\journeymap\config\5.1\journeymap.minimap.config
+[10:00:18] [Client thread/INFO] [PropertiesBase] Creating config file: M:\Minecraft stuff\FTB\FTBInfinity\minecraft\journeymap\config\5.1\journeymap.minimap2.config
+[10:00:18] [Client thread/DEBUG] [PropertiesBase] Saved journeymap.minimap2.config
+[10:00:18] [Client thread/INFO] [PropertiesBase] Updating config file from version "null" to "5.1.0": M:\Minecraft stuff\FTB\FTBInfinity\minecraft\journeymap\config\5.1\journeymap.minimap2.config
+[10:00:18] [Client thread/DEBUG] [PropertiesBase] Saved journeymap.minimap2.config
+[10:00:18] [Client thread/INFO] [PropertiesBase] Loaded MiniMapProperties2 from M:\Minecraft stuff\FTB\FTBInfinity\minecraft\journeymap\config\5.1\journeymap.minimap2.config
+[10:00:18] [Client thread/INFO] [PropertiesBase] Creating config file: M:\Minecraft stuff\FTB\FTBInfinity\minecraft\journeymap\config\5.1\journeymap.webmap.config
+[10:00:18] [Client thread/DEBUG] [PropertiesBase] Saved journeymap.webmap.config
+[10:00:18] [Client thread/INFO] [PropertiesBase] Loaded WebMapProperties from M:\Minecraft stuff\FTB\FTBInfinity\minecraft\journeymap\config\5.1\journeymap.webmap.config
+[10:00:18] [Client thread/INFO] [PropertiesBase] Creating config file: M:\Minecraft stuff\FTB\FTBInfinity\minecraft\journeymap\config\5.1\journeymap.waypoint.config
+[10:00:18] [Client thread/DEBUG] [PropertiesBase] Saved journeymap.waypoint.config
+[10:00:18] [Client thread/INFO] [PropertiesBase] Loaded WaypointProperties from M:\Minecraft stuff\FTB\FTBInfinity\minecraft\journeymap\config\5.1\journeymap.waypoint.config
+[10:00:18] [Client thread/INFO] [?] Version: JourneyMap 5.1.0 Unlimited, built with Forge 10.13.2.1291
+Forge: 10.13.4.1448
+Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_US, locale=en_us
+Unlimited Features: 
+	RadarPlayers : singleplayer = true , multiplayer = true
+	RadarAnimals : singleplayer = true , multiplayer = true
+	RadarMobs : singleplayer = true , multiplayer = true
+	RadarVillagers : singleplayer = true , multiplayer = true
+	MapCaves : singleplayer = true , multiplayer = true
+MiniMapProperties{entityIconSetName=2D, showAnimals=true, showMobs=true, showPets=true, showPlayers=true, showSelf=true, showVillagers=true, showWaypoints=true, zoomLevel=0, fontScale=1, locationFormat=xzyv, locationFormatVerbose=true, showCaves=true, showWaypointLabels=true, showMobHeading=true, showPlayerHeading=true, textureSmall=true, active=true, compassFontScale=1, enabled=true, frameAlpha=100, name=minimap, orientation=My Heading, position=Top Right, preferredMapType=day, reticleOrientation=Compass, shape=Circle, showBiome=true, showCompass=true, showFps=false, showLocation=true, showReticle=true, sizePercent=30, terrainAlpha=100}
+MiniMapProperties2{enabled=true, shape=Rectangle, position=Top Center, showFps=false, showBiome=true, showLocation=true, showWaypointLabels=true, sizePercent=30, frameAlpha=60, terrainAlpha=60, orientation=My Heading, compassFontScale=1, showCompass=true, showReticle=true, reticleOrientation=Compass, preferredMapType=day, name=minimap2, id=2}
+FullMapProperties{entityIconSetName=2D, showAnimals=true, showMobs=true, showPets=true, showPlayers=true, showSelf=true, showVillagers=true, showWaypoints=true, zoomLevel=0, fontScale=1, locationFormat=xzyv, locationFormatVerbose=true, showCaves=true, showWaypointLabels=true, showMobHeading=true, showPlayerHeading=true, textureSmall=true, preferredMapType=day, showGrid=true}
+WaypointProperties{autoHideLabel=true, beaconEnabled=true, boldLabel=false, createDeathpoints=true, fontScale=2, managerEnabled=true, maxDistance=0, name=waypoint, showDistance=true, showName=true, showRotatingBeam=true, showStaticBeam=true, showTexture=true, textureSmall=true}
+WebMapProperties: , enabled=false, port=8080, showMobs=true, showAnimals=true, showVillagers=true, showPets=true, showPlayers=true, showWaypoints=true, entityIconSetName=2D
+CoreProperties{announceMod=true, autoMapPoll=2000, browserPoll=2000, cacheAnimalsData=3100, cacheMobsData=3000, cachePlayerData=1000, cachePlayersData=2000, cacheVillagersData=2200, caveIgnoreGlass=true, checkUpdates=true, renderDelay=2, hideSneakingEntities=true, logLevel=INFO, mapAntialiasing=true, mapBathymetry=false, mapCaveLighting=true, mapCrops=true, mapPlants=false, mapPlantShadows=false, mapSurfaceAboveCaves=true, tileHighDisplayQuality=true, mapTransparency=true, maxAnimalsData=32, maxMobsData=32, maxPlayersData=32, maxVillagersData=32, optionsManagerViewed=, radarLateralDistance=64, radarVerticalDistance=16, recordCacheStats=false, renderOverlayEventTypeName=ALL, renderOverlayPreEvent=true, renderDistanceCaveMin=3, renderDistanceCaveMax=3, renderDistanceSurfaceMin=4, renderDistanceSurfaceMax=7, revealShape=Circle, themeName=Victorian, tileRenderType=1}
+[10:00:18] [Client thread/DEBUG] [StatTimer] elapsed was slow: 2456.171008
+[10:00:18] [Client thread/INFO] [JourneyMap] ensureCurrent EXIT, elapsed§8 count §r1§8 avg §r§r2456.17§8ms§r
+[10:01:09] [Client thread/INFO] [JourneyMap] postInitialize ENTER
+[10:01:09] [Client thread/DEBUG] [EventHandlerManager] net.techbrew.journeymap.forge.event.ChatEventHandler registered in MinecraftForgeBus
+[10:01:09] [Client thread/DEBUG] [EventHandlerManager] net.techbrew.journeymap.forge.event.StateTickHandler registered in FMLCommonHandlerBus
+[10:01:09] [Client thread/DEBUG] [EventHandlerManager] net.techbrew.journeymap.forge.event.WorldEventHandler registered in MinecraftForgeBus
+[10:01:09] [Client thread/DEBUG] [EventHandlerManager] net.techbrew.journeymap.forge.event.ChunkUpdateHandler registered in MinecraftForgeBus
+[10:01:09] [Client thread/DEBUG] [EventHandlerManager] net.techbrew.journeymap.forge.event.WaypointBeaconHandler registered in MinecraftForgeBus
+[10:01:09] [Client thread/INFO] [WorldInfoHandler] Registered channel: world_info
+[10:01:09] [Client thread/INFO] [ModBlockDelegate] Registered IModBlockHandler for: 'CarpentersBlocks:blockCarpentersBlock, CarpentersBlocks:blockCarpentersBarrier, CarpentersBlocks:blockCarpentersBed, CarpentersBlocks:blockCarpentersCollapsibleBlock, CarpentersBlocks:blockCarpentersDaylightSensor, CarpentersBlocks:blockCarpentersDoor, CarpentersBlocks:blockCarpentersFlowerPot, CarpentersBlocks:blockCarpentersGarageDoor, CarpentersBlocks:blockCarpentersGate, CarpentersBlocks:blockCarpentersHatch, CarpentersBlocks:blockCarpentersPressurePlate, CarpentersBlocks:blockCarpentersSafe, CarpentersBlocks:blockCarpentersSlope, CarpentersBlocks:blockCarpentersStairs'.
+[10:01:12] [Client thread/DEBUG] [StatTimer] IconLoader.initBlocksTexture was slow: 2696.51264
+[10:01:12] [Client thread/DEBUG] [EventHandlerManager] net.techbrew.journeymap.forge.event.MiniMapOverlayHandler registered in MinecraftForgeBus
+[10:01:12] [Client thread/DEBUG] [EventHandlerManager] net.techbrew.journeymap.forge.event.KeyEventHandler registered in FMLCommonHandlerBus
+[10:01:12] [Client thread/INFO] [IconSetFileHandler] Initializing icon sets...
+[10:01:13] [Client thread/TRACE] [ThemeFileHandler] Initializing themes ...
+[10:01:13] [Client thread/INFO] [PropertiesBase] Updating config file from version "null" to "5.1.0": M:\Minecraft stuff\FTB\FTBInfinity\minecraft\journeymap\config\5.1\journeymap.webmap.config
+[10:01:13] [Client thread/DEBUG] [PropertiesBase] Saved journeymap.webmap.config
+[10:01:13] [Client thread/DEBUG] [StatTimer] elapsed was slow: 3745.86009
+[10:01:13] [Client thread/INFO] [JourneyMap] postInitialize EXIT, elapsed§8 count §r1§8 avg §r§r3745.86§8ms§r

@@ -1,0 +1,23 @@
+class Tree extends WorldGenerator
+{
+
+    public Tree()
+    {
+        super(false);
+    }
+
+    public boolean generate(World world, Random par2Random, BlockPos pos)
+    {
+		int i = pos.getX();
+		int j2 = pos.getY();
+		int k = pos.getZ();
+		
+		int chunkX = i >> 4;
+		int chunkZ = k >> 4;
+		int j = world.getChunkFromChunkCoords(chunkX, chunkZ).getHeight(new BlockPos(i & 15, 0, k & 15));
+
+		%generatecode%
+
+		return true;
+    }
+}

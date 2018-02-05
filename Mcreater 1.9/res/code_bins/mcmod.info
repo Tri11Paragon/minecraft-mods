@@ -1,0 +1,19 @@
+[
+{
+  "modid": "%name%",
+  "name": "%name2%",
+  "description": "%desc%",
+  "version": "%vers%",
+  "credits": "Created by mod maker MCreator and %auth%",
+  "logoFile": "/logo.png",
+  "mcversion": "%mcvr%",
+  "url": "https://mcreator.pylo.co/",
+  "updateUrl": "",
+  "authors": [ "%auth%" , "MCreator" ],
+  "parent": "",
+  "screenshots": [],
+  "dependencies": [
+     "mod_MinecraftForge"
+  ]
+}
+]

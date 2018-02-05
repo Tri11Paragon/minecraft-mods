@@ -1,0 +1,45 @@
+int l = world.getBlockId(i, j, k);
+if (l > 0)
+{
+    int i1 = world.getBlockMetadata(i, j, k);
+    
+    ArrayList<ItemStack> items = getBlockDropped(world, i, j, k, i1, 1);
+    
+    IInventory inv = null;
+    
+    if(inv==null)
+    	inv = TileEntityHopper.getInventoryAtLocation(world, i, j+1, k);
+    
+    if(inv==null)
+    	inv = TileEntityHopper.getInventoryAtLocation(world, i, j-1, k);
+    
+    if(inv==null)
+   	 inv = TileEntityHopper.getInventoryAtLocation(world, i+1, j, k);
+    
+    if(inv==null)
+    	inv = TileEntityHopper.getInventoryAtLocation(world, i-1, j, k);
+    
+    if(inv==null)
+    	inv = TileEntityHopper.getInventoryAtLocation(world, i, j, k+1);
+    
+    if(inv==null)
+    	inv = TileEntityHopper.getInventoryAtLocation(world, i, j, k-1);
+	
+	for (ItemStack item : items)
+	{
+	        if(inv!=null){
+	        inv.addItemStackToInventory(item);
+	        }else{
+	        float f = 0.7F;
+		double d0 = (double)(world.rand.nextFloat() * f) + (double)(1.0F - f) * 0.5D;
+		double d1 = (double)(world.rand.nextFloat() * f) + (double)(1.0F - f) * 0.5D;
+		double d2 = (double)(world.rand.nextFloat() * f) + (double)(1.0F - f) * 0.5D;
+		EntityItem entityitem = new EntityItem(world, (double)i + d0, (double)j + d1, (double)k + d2, item);
+		entityitem.delayBeforeCanPickup = 10;
+            	par1World.spawnEntityInWorld(entityitem);
+	        }
+    	}
+    	
+    	world.setBlock(i, j, k, 0, 0, 3);
+    	
+}

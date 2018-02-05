@@ -1,0 +1,6 @@
+{ 
+	"parent":"mod:block/LeadOre",
+	"textures":{
+		"all": "mod:blocks/LeadOre"
+	}
+}

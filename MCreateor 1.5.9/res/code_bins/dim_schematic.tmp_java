@@ -1,0 +1,16 @@
+public static class WorldGen%name% extends WorldGenerator
+{
+
+    public WorldGen%name%(){
+
+    }
+
+    public boolean generate(World world, Random random, int i2, int j_unused, int k2)
+    {
+
+		%structure%
+
+		return true;
+    }
+
+}

@@ -1,0 +1,6 @@
+{ 
+	"parent":"mod:block/bigKaboom",
+	"textures":{
+		"all": "mod:blocks/bigKaboom"
+	}
+}

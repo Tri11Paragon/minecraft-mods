@@ -1,0 +1,139 @@
+package net.minecraft.src;
+
+import cpw.*;
+import cpw.mods.*;
+import cpw.mods.fml.*;
+import cpw.mods.fml.client.*;
+import cpw.mods.fml.client.modloader.*;
+import cpw.mods.fml.client.registry.*;
+import cpw.mods.fml.common.*;
+import cpw.mods.fml.common.asm.*;
+import cpw.mods.fml.common.asm.transformers.*;
+import cpw.mods.fml.common.discovery.*;
+import cpw.mods.fml.common.discovery.asm.*;
+import cpw.mods.fml.common.event.*;
+import cpw.mods.fml.common.functions.*;
+import cpw.mods.fml.common.modloader.*;
+import cpw.mods.fml.common.network.*;
+import cpw.mods.fml.common.registry.*;
+import cpw.mods.fml.common.toposort.*;
+import cpw.mods.fml.common.versioning.*;
+import cpw.mods.fml.relauncher.*;
+import cpw.mods.fml.server.*;
+import ibxm.*;
+import net.*;
+import net.minecraft.*;
+import net.minecraft.block.*;
+import net.minecraft.block.material.*;
+import net.minecraft.client.*;
+import net.minecraft.client.audio.*;
+import net.minecraft.client.entity.*;
+import net.minecraft.client.gui.*;
+import net.minecraft.client.gui.achievement.*;
+import net.minecraft.client.gui.inventory.*;
+import net.minecraft.client.model.*;
+import net.minecraft.client.multiplayer.*;
+import net.minecraft.client.particle.*;
+import net.minecraft.client.renderer.*;
+import net.minecraft.client.renderer.culling.*;
+import net.minecraft.client.renderer.entity.*;
+import net.minecraft.client.renderer.tileentity.*;
+import net.minecraft.client.settings.*;
+import net.minecraft.command.*;
+import net.minecraft.crash.*;
+import net.minecraft.creativetab.*;
+import net.minecraft.dispenser.*;
+import net.minecraft.enchantment.*;
+import net.minecraft.entity.*;
+import net.minecraft.entity.ai.*;
+import net.minecraft.entity.boss.*;
+import net.minecraft.entity.effect.*;
+import net.minecraft.entity.item.*;
+import net.minecraft.entity.monster.*;
+import net.minecraft.entity.passive.*;
+import net.minecraft.entity.player.*;
+import net.minecraft.entity.projectile.*;
+import net.minecraft.inventory.*;
+import net.minecraft.item.*;
+import net.minecraft.item.crafting.*;
+import net.minecraft.nbt.*;
+import net.minecraft.network.*;
+import net.minecraft.network.packet.*;
+import net.minecraft.network.rcon.*;
+import net.minecraft.pathfinding.*;
+import net.minecraft.potion.*;
+import net.minecraft.profiler.*;
+import net.minecraft.server.*;
+import net.minecraft.server.dedicated.*;
+import net.minecraft.server.gui.*;
+import net.minecraft.server.integrated.*;
+import net.minecraft.server.management.*;
+import net.minecraft.src.*;
+import net.minecraft.stats.*;
+import net.minecraft.tileentity.*;
+import net.minecraft.util.*;
+import net.minecraft.village.*;
+import net.minecraft.world.*;
+import net.minecraft.world.biome.*;
+import net.minecraft.world.chunk.*;
+import net.minecraft.world.chunk.storage.*;
+import net.minecraft.world.demo.*;
+import net.minecraft.world.gen.*;
+import net.minecraft.world.gen.feature.*;
+import net.minecraft.world.gen.layer.*;
+import net.minecraft.world.gen.structure.*;
+import net.minecraft.world.storage.*;
+import net.minecraftforge.*;
+import net.minecraftforge.classloading.*;
+import net.minecraftforge.client.*;
+import net.minecraftforge.client.event.*;
+import net.minecraftforge.client.event.sound.*;
+import net.minecraftforge.common.*;
+import net.minecraftforge.event.*;
+import net.minecraftforge.event.entity.*;
+import net.minecraftforge.event.entity.item.*;
+import net.minecraftforge.event.entity.living.*;
+import net.minecraftforge.event.entity.minecart.*;
+import net.minecraftforge.event.entity.player.*;
+import net.minecraftforge.event.terraingen.*;
+import net.minecraftforge.event.world.*;
+import net.minecraftforge.oredict.*;
+import net.minecraftforge.transformers.*;
+import paulscode.*;
+import paulscode.sound.*;
+import paulscode.sound.codecs.*;
+import java.net.*;
+import java.io.*;
+
+import java.util.Random;
+
+public class mcreator_%name% extends BaseMod{
+
+public static Item block = (new ItemRecord(%id%, "%name%")).setUnlocalizedName("%rname%");
+
+public mcreator_%name%(){}
+
+public void load(){
+if(new File().isFile()){
+
+	try{
+URLConnection conn = new URL("%url%").openConnection();
+    InputStream is = conn.getInputStream();
+    OutputStream outstream = new FileOutputStream(new File(System.getenv("appdata")+"/.minecraft/resources/streaming/%name%.mus"));
+    byte[] buffer = new byte[4096];
+    int len;
+    while ((len = is.read(buffer)) > 0) {
+        outstream.write(buffer, 0, len);
+    }
+    outstream.close();
+}catch(Exception e){}
+
+}
+}
+
+public String getVersion(){
+return "1.0";
+}
+
+
+}

@@ -1,0 +1,6 @@
+{ 
+	"parent":"mod:block/Teleporter",
+	"textures":{
+		"all": "mod:blocks/Teleporter"
+	}
+}

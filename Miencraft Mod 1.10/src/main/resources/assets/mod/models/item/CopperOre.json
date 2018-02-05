@@ -1,0 +1,6 @@
+{ 
+	"parent":"mod:block/CopperOre",
+	"textures":{
+		"all": "mod:blocks/CopperOre"
+	}
+}
